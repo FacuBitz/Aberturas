@@ -18,20 +18,8 @@ import { Card, CardMedia, Stack } from "@mui/material";
 import logo from "../assets/img/logo-lucio.png";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-// se usa asi ^
-// endIcon={<KeyboardArrowDownIcon />}
-//
 
 const drawerWidth = 240;
-// --------------------------
-// --------------------------
-// CONST O LET????????? AVERIGUAR Y PROBAR
-const navItem = [
-  { id: 1, name: "Home", searchPath: "/" },
-  { id: 2, name: "Empresa", searchPath: "/empresa" },
-  { id: 3, name: "Productos", searchPath: "/catalogue" },
-  { id: 4, name: "Contacto", searchPath: "/" },
-];
 
 function NavBar(props) {
   const { window } = props;
@@ -47,23 +35,29 @@ function NavBar(props) {
         Lucio's Aberturas
       </Typography>
       <Divider />
-      <List>
-        {navItem.map((item) => (
-          <ListItem
-            key={item.id}
-            disablePadding
-            sx={{ justifyContent: "center" }}
-          >
-            <Link to={item.searchPath}>
-              <Button color="secondary" sx={{ textAlign: "center" }}>
-                {item.name}
-              </Button>
-              {/* <ListItemButton sx={{ textAlign: "center" }}>
-                <ListItemText primary={item.name} />
-              </ListItemButton> */}
-            </Link>
-          </ListItem>
-        ))}
+      <List disablePadding>
+        <ListItem sx={{ justifyContent: "center" }}>
+          <Link to="/">
+            <Button color="secondary">Home</Button>
+          </Link>
+        </ListItem>
+        <ListItem sx={{ justifyContent: "center" }}>
+          <Link to="/empresa">
+            <Button color="secondary">Empresa</Button>
+          </Link>
+        </ListItem>
+        <ListItem sx={{ justifyContent: "center" }}>
+          <Link to="/catalogue">
+            <Button endIcon={<KeyboardArrowDownIcon />} color="secondary">
+              Productos
+            </Button>
+          </Link>
+        </ListItem>
+        <ListItem sx={{ justifyContent: "center" }}>
+          <Link to="/">
+            <Button color="secondary">Contacto</Button>
+          </Link>
+        </ListItem>
       </List>
     </Box>
   );
@@ -72,7 +66,7 @@ function NavBar(props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box component="header" sx={{ display: "flex" }}>
       {/* position viene fixed pero me tapa parte del main, tener en cuenta */}
       <AppBar component="nav" position="sticky">
         {/* ------------------------------------------------ */}
@@ -120,17 +114,6 @@ function NavBar(props) {
             >
               <MenuIcon />
             </IconButton>
-            {/* <Box>
-              <img src={logo} />
-            </Box> */}
-
-            {/* <Typography
-              variant="h6"
-              component="div"
-              sx={{ flexGrow: 1, display: { xs: "none", md: "block" } }}
-              >
-              Lucio's aberturas
-            </Typography> */}
           </Box>
           <Card
             sx={{
@@ -142,18 +125,30 @@ function NavBar(props) {
           >
             <CardMedia component="img" image={logo} />
           </Card>
-          <Stack
-            spacing={3}
-            direction="row"
-            sx={{ display: { xs: "none", md: "block" } }}
-          >
-            {/* Agregar List e ListItem (ul li) para que queden mejor las etiquetas */}
-            {navItem.map((item) => (
-              <Link to={item.searchPath} key={item.id}>
-                <Button color="secondary">{item.name}</Button>
+          <List sx={{ display: { xs: "none", md: "flex" } }}>
+            <ListItem>
+              <Link to="/">
+                <Button color="secondary">Home</Button>
               </Link>
-            ))}
-          </Stack>
+            </ListItem>
+            <ListItem>
+              <Link to="/empresa">
+                <Button color="secondary">Empresa</Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link to="/catalogue">
+                <Button endIcon={<KeyboardArrowDownIcon />} color="secondary">
+                  Productos
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link to="/">
+                <Button color="secondary">Contacto</Button>
+              </Link>
+            </ListItem>
+          </List>
           <Button variant="contained" color="warning">
             <WhatsAppIcon sx={{ mr: "4px" }} />
             {/* <Typography sx={{ display: { xs: "none", md: "block" } }}> */}
