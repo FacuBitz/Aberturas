@@ -30,8 +30,8 @@ const App = () => {
               />
               <Route exact path="/item/:id" element={<ItemDetailContainer />} />
             </Routes>
-            <Footer />
           </Container>
+          <Footer />
         </ThemeProvider>
       </BrowserRouter>
     </>

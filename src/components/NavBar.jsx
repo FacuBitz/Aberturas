@@ -91,7 +91,7 @@ function NavBar(props) {
             <Stack direction="row" alignItems="center">
               <WhatsAppIcon color="primary" sx={{ mr: "4px", py: "3px" }} />
               <Typography color="primary" variant="body2">
-                +54 011 38158705
+                +54 011 3815-8705
               </Typography>
             </Stack>
             <Typography color="primary" variant="body2">
@@ -149,7 +149,7 @@ function NavBar(props) {
               </Link>
             </ListItem>
           </List>
-          <Button variant="contained" color="warning">
+          <Button variant="contained" color="error">
             <WhatsAppIcon sx={{ mr: "4px" }} />
             {/* <Typography sx={{ display: { xs: "none", md: "block" } }}> */}
             Escribinos
