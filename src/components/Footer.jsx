@@ -20,9 +20,11 @@ export default function Footer() {
     <Box
       sx={{ flexGrow: 1 }}
       backgroundColor="#0C0C0C"
-      position="absolute"
-      bottom="0"
+      // position y bottom sacarlo cuando ya tenga mas contenido
+      // position="absolute"
+      // bottom="0"
       width="100%"
+      component="footer"
     >
       <Grid container marginTop="0" maxWidth="2000px">
         <Grid item xs={12} sm={5} md={4.5}>
