@@ -18,19 +18,19 @@ const App = () => {
         <CssBaseline />
         <ThemeProvider theme={theme}>
           <NavBar />
-          <Container maxWidth="xl" component="main">
-            <Routes>
-              <Route exact path="/" element={<Home />} />
-              <Route exact path="/empresa" element={<Empresa />} />
-              <Route exact path="/catalogue" element={<ItemListContainer />} />
-              <Route
-                exact
-                path="/category/:category"
-                element={<ItemListContainer />}
-              />
-              <Route exact path="/item/:id" element={<ItemDetailContainer />} />
-            </Routes>
-          </Container>
+          {/* <Container maxWidth="xl" component="main"> */}
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/empresa" element={<Empresa />} />
+            <Route exact path="/catalogue" element={<ItemListContainer />} />
+            <Route
+              exact
+              path="/category/:category"
+              element={<ItemListContainer />}
+            />
+            <Route exact path="/item/:id" element={<ItemDetailContainer />} />
+          </Routes>
+          {/* </Container> */}
           <Footer />
         </ThemeProvider>
       </BrowserRouter>

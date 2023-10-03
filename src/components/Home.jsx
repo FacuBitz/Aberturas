@@ -51,8 +51,9 @@ export default function Home() {
       flexDirection="column"
       alignItems="center"
       bgcolor="#E5E5E5"
+      component="main"
     >
-      <Stack component="section" alignItems="center">
+      <Stack component="section" alignItems="center" maxWidth="xl">
         <Typography
           fontWeight="600"
           marginBottom="50px"
@@ -149,64 +150,71 @@ export default function Home() {
           </Brands>
         </Grid>
       </Stack>
-      <Grid
-        container
-        spacing={6}
-        component="section"
-        margin="0"
+      <Stack
+        backgroundColor="#4c4c4c"
         marginBottom="30px"
+        width="100%"
         alignItems="center"
+        component="section"
       >
         <Grid
-          xs={12}
-          sm={4}
-          display="flex"
-          justifyContent="center"
-          textAlign="center"
+          container
+          spacing={6}
+          margin="0"
+          alignItems="center"
+          sx={{ width: { xs: "70%", sm: "60%", lg: "30%" } }}
         >
-          <Card
-            sx={{
-              maxWidth: { xs: "60px", sm: "75px" },
-              backgroundColor: "transparent",
-              boxShadow: "none",
-            }}
-          >
-            <CardMedia component="img" image={puerta} />
-
-            <Typography variant="button">Puertas</Typography>
-          </Card>
-        </Grid>
-        <Grid xs={12} sm={4} display="flex" justifyContent="center">
-          <Typography
-            variant="button"
+          <Grid
+            xs={12}
+            sm={4}
+            display="flex"
+            justifyContent="center"
             textAlign="center"
-            lineHeight="18px"
-            color="error"
           >
-            Nuestros productos
-          </Typography>
-        </Grid>
-        <Grid
-          xs={12}
-          sm={4}
-          display="flex"
-          justifyContent="center"
-          textAlign="center"
-        >
-          <Card
-            sx={{
-              maxWidth: { xs: "60px", sm: "90px" },
-              backgroundColor: "transparent",
-              boxShadow: "none",
-            }}
-          >
-            <CardMedia component="img" image={ventana} />
+            <Card
+              sx={{
+                maxWidth: { xs: "60px", sm: "75px" },
+                backgroundColor: "transparent",
+                boxShadow: "none",
+              }}
+            >
+              <CardMedia component="img" image={puerta} />
 
-            <Typography variant="button">Ventanas</Typography>
-          </Card>
+              <Typography variant="button">Puertas</Typography>
+            </Card>
+          </Grid>
+          <Grid xs={12} sm={4} display="flex" justifyContent="center">
+            <Typography
+              variant="button"
+              textAlign="center"
+              lineHeight="18px"
+              color="error"
+            >
+              Nuestros productos
+            </Typography>
+          </Grid>
+          <Grid
+            xs={12}
+            sm={4}
+            display="flex"
+            justifyContent="center"
+            textAlign="center"
+          >
+            <Card
+              sx={{
+                maxWidth: { xs: "60px", sm: "90px" },
+                backgroundColor: "transparent",
+                boxShadow: "none",
+              }}
+            >
+              <CardMedia component="img" image={ventana} />
+
+              <Typography variant="button">Ventanas</Typography>
+            </Card>
+          </Grid>
         </Grid>
-      </Grid>
-      <Stack component="section" alignItems="center" spacing={2}>
+      </Stack>
+      <Stack component="section" alignItems="center" spacing={2} maxWidth="xl">
         <Typography
           variant="h6"
           component="h2"
@@ -242,71 +250,78 @@ export default function Home() {
           </Typography>
         </Stack>
       </Stack>
-      <Stack component="section" alignItems="center" spacing="20px">
-        <Typography fontWeight="600" variant="h6" component="h2">
-          NUESTROS SERVICIOS
-        </Typography>
-        <Divider width="100px" />
-        <Grid
-          container
-          spacing={2}
-          display="flex"
-          alignItems="center"
-          margin="0"
-        >
-          <Brands xs={12} sm={6} md={3}>
-            <Item>
-              <Card
-                sx={{
-                  maxWidth: { xs: "60px", sm: "70px" },
-                  backgroundColor: "transparent",
-                  boxShadow: "none",
-                }}
-              >
-                <CardMedia component="img" image={aluar} />
-              </Card>
-            </Item>
-          </Brands>
-          <Brands xs={12} sm={6} md={3}>
-            <Item>
-              <Card
-                sx={{
-                  maxWidth: { xs: "60px", sm: "70px" },
-                  backgroundColor: "transparent",
-                  boxShadow: "none",
-                }}
-              >
-                <CardMedia component="img" image={aluar} />
-              </Card>
-            </Item>
-          </Brands>
-          <Brands xs={12} sm={6} md={3}>
-            <Item>
-              <Card
-                sx={{
-                  maxWidth: { xs: "60px", sm: "70px" },
-                  backgroundColor: "transparent",
-                  boxShadow: "none",
-                }}
-              >
-                <CardMedia component="img" image={aluar} />
-              </Card>
-            </Item>
-          </Brands>
-          <Brands xs={12} sm={6} md={3}>
-            <Item>
-              <Card
-                sx={{
-                  maxWidth: { xs: "60px", sm: "70px" },
-                  backgroundColor: "transparent",
-                  boxShadow: "none",
-                }}
-              >
-                <CardMedia component="img" image={aluar} />
-              </Card>
-            </Item>
-          </Brands>
-        </Grid>
+      <Stack
+        component="section"
+        backgroundColor="grey"
+        width="100%"
+        alignItems="center"
+      >
+        <Stack alignItems="center" spacing="20px" maxWidth="xl">
+          <Typography fontWeight="600" variant="h6" component="h2">
+            NUESTROS SERVICIOS
+          </Typography>
+          <Divider width="100px" />
+          <Grid
+            container
+            spacing={2}
+            display="flex"
+            alignItems="center"
+            margin="0"
+          >
+            <Brands xs={12} sm={6} md={3}>
+              <Item>
+                <Card
+                  sx={{
+                    maxWidth: { xs: "60px", sm: "70px" },
+                    backgroundColor: "transparent",
+                    boxShadow: "none",
+                  }}
+                >
+                  <CardMedia component="img" image={aluar} />
+                </Card>
+              </Item>
+            </Brands>
+            <Brands xs={12} sm={6} md={3}>
+              <Item>
+                <Card
+                  sx={{
+                    maxWidth: { xs: "60px", sm: "70px" },
+                    backgroundColor: "transparent",
+                    boxShadow: "none",
+                  }}
+                >
+                  <CardMedia component="img" image={aluar} />
+                </Card>
+              </Item>
+            </Brands>
+            <Brands xs={12} sm={6} md={3}>
+              <Item>
+                <Card
+                  sx={{
+                    maxWidth: { xs: "60px", sm: "70px" },
+                    backgroundColor: "transparent",
+                    boxShadow: "none",
+                  }}
+                >
+                  <CardMedia component="img" image={aluar} />
+                </Card>
+              </Item>
+            </Brands>
+            <Brands xs={12} sm={6} md={3}>
+              <Item>
+                <Card
+                  sx={{
+                    maxWidth: { xs: "60px", sm: "70px" },
+                    backgroundColor: "transparent",
+                    boxShadow: "none",
+                  }}
+                >
+                  <CardMedia component="img" image={aluar} />
+                </Card>
+              </Item>
+            </Brands>
+          </Grid>
+        </Stack>
       </Stack>
     </Box>
   );
