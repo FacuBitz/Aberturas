@@ -19,7 +19,7 @@ export default function Footer() {
   return (
     <Box
       sx={{ flexGrow: 1 }}
-      backgroundColor="#0C0C0C"
+      backgroundColor="secondary.dark"
       // position y bottom sacarlo cuando ya tenga mas contenido
       // position="absolute"
       // bottom="0"

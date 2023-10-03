@@ -70,7 +70,7 @@ function NavBar(props) {
       {/* position viene fixed pero me tapa parte del main, tener en cuenta */}
       <AppBar component="nav" position="sticky">
         {/* ------------------------------------------------ */}
-        <Box backgroundColor="#0c0c0c">
+        <Box backgroundColor="secondary.dark">
           <Stack
             direction="row"
             spacing={5}
@@ -80,7 +80,13 @@ function NavBar(props) {
               <Divider
                 orientation="vertical"
                 flexItem
-                color="#d1604"
+                // ---------------------------------
+                // ---------------------------------
+                // ---------------------------------
+                color="#D16014"
+                // ---------------------------------
+                // ---------------------------------
+                // ---------------------------------
                 sx={{
                   my: "3px",
                 }}

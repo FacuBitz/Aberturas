@@ -50,7 +50,7 @@ export default function Home() {
       display="flex"
       flexDirection="column"
       alignItems="center"
-      bgcolor="#E5E5E5"
+      bgcolor="primary.dark"
       component="main"
     >
       <Stack component="section" alignItems="center" maxWidth="xl">
@@ -68,7 +68,7 @@ export default function Home() {
           display="flex"
           alignItems="center"
           margin="0"
-          marginBottom="90px"
+          marginBottom="60px"
         >
           <Brands xs={12} sm={4} md={2}>
             <Item>
@@ -151,11 +151,12 @@ export default function Home() {
         </Grid>
       </Stack>
       <Stack
-        backgroundColor="#4c4c4c"
+        backgroundColor="secondary.light"
         marginBottom="30px"
         width="100%"
         alignItems="center"
         component="section"
+        paddingY="15px"
       >
         <Grid
           container
@@ -180,7 +181,9 @@ export default function Home() {
             >
               <CardMedia component="img" image={puerta} />
 
-              <Typography variant="button">Puertas</Typography>
+              <Typography variant="button" color="secondary.contrastText">
+                Puertas
+              </Typography>
             </Card>
           </Grid>
           <Grid xs={12} sm={4} display="flex" justifyContent="center">
@@ -209,7 +212,9 @@ export default function Home() {
             >
               <CardMedia component="img" image={ventana} />
 
-              <Typography variant="button">Ventanas</Typography>
+              <Typography variant="button" color="secondary.contrastText">
+                Ventanas
+              </Typography>
             </Card>
           </Grid>
         </Grid>
@@ -220,6 +225,7 @@ export default function Home() {
           component="h2"
           color="error"
           letterSpacing="4px"
+          fontWeight="600"
         >
           NOSOTROS
         </Typography>
@@ -237,36 +243,44 @@ export default function Home() {
         </Button>
         <Stack flexDirection="row" spacing={25} marginY="30px">
           <Typography variant="button" display="flex" alignItems="center">
-            <DoneIcon />
+            <DoneIcon color="error" sx={{ mx: "2px" }} />
             COMPROMISO
           </Typography>
           <Typography variant="button" display="flex" alignItems="center">
-            <DoneIcon />
+            <DoneIcon color="error" sx={{ mx: "2px" }} />
             CONFIANZA
           </Typography>
           <Typography variant="button" display="flex" alignItems="center">
-            <DoneIcon />
+            <DoneIcon color="error" sx={{ mx: "2px" }} />
             GARANTIA
           </Typography>
         </Stack>
       </Stack>
       <Stack
         component="section"
-        backgroundColor="grey"
+        backgroundColor="secondary.light"
         width="100%"
         alignItems="center"
+        paddingTop="30px"
       >
-        <Stack alignItems="center" spacing="20px" maxWidth="xl">
-          <Typography fontWeight="600" variant="h6" component="h2">
+        <Stack alignItems="center" spacing="10px" maxWidth="xl">
+          <Typography
+            fontWeight="600"
+            variant="h6"
+            component="h2"
+            color="secondary.contrastText"
+            letterSpacing="1px"
+          >
             NUESTROS SERVICIOS
           </Typography>
-          <Divider width="100px" />
+          <Divider width="100px" color="#D16014" />
           <Grid
             container
             spacing={2}
             display="flex"
             alignItems="center"
             margin="0"
+            paddingTop="20px"
           >
             <Brands xs={12} sm={6} md={3}>
               <Item>

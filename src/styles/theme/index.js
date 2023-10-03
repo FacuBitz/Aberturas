@@ -20,15 +20,15 @@ const theme = createTheme({
   palette: {
     primary: {
       main: "#F6F8FF",
-      // light: '#42a5f5',
+      light: "#e5e5e5",
       dark: "#DDDFE5",
       contrastText: "#0C0C0C",
     },
     secondary: {
-      main: "#0C0C0C",
+      main: "#242424",
       light: "#3c3c3c",
-      dark: "#000000",
-      contrastText: "#F6F8FF",
+      dark: "#0C0C0C",
+      contrastText: "#f2efee",
     },
     error: {
       main: "#D16014",
