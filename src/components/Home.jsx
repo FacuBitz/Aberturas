@@ -53,7 +53,12 @@ export default function Home() {
       bgcolor="#E5E5E5"
     >
       <Stack component="section" alignItems="center">
-        <Typography fontWeight="600" marginBottom="50px" variant="h6">
+        <Typography
+          fontWeight="600"
+          marginBottom="50px"
+          variant="h6"
+          component="h1"
+        >
           TRABAJAMOS CON LOS MEJORES
         </Typography>
         <Grid
@@ -202,7 +207,12 @@ export default function Home() {
         </Grid>
       </Grid>
       <Stack component="section" alignItems="center" spacing={2}>
-        <Typography variant="h6" color="error" letterSpacing="4px">
+        <Typography
+          variant="h6"
+          component="h2"
+          color="error"
+          letterSpacing="4px"
+        >
           NOSOTROS
         </Typography>
         <Divider width="100px" />
@@ -211,7 +221,9 @@ export default function Home() {
           RUBRO DE LAS ABERTURAS. BRINDANDO UNA GRAN ATENCION PERSONALIZADA Y
           SERVICIO POST-VENTA PARA RESOLVER TODO TIPO DE INQUIETUDES.
         </Typography>
-        <Typography fontWeight="500">¡COTIZAMOS TODO TIPO DE OBRA!</Typography>
+        <Typography fontWeight="500" component="h3">
+          ¡COTIZAMOS TODO TIPO DE OBRA!
+        </Typography>
         <Button variant="contained" color="error">
           CONOCER MAS
         </Button>
@@ -231,7 +243,7 @@ export default function Home() {
         </Stack>
       </Stack>
       <Stack component="section" alignItems="center" spacing="20px">
-        <Typography fontWeight="600" variant="h6">
+        <Typography fontWeight="600" variant="h6" component="h2">
           NUESTROS SERVICIOS
         </Typography>
         <Divider width="100px" />
@@ -241,7 +253,6 @@ export default function Home() {
           display="flex"
           alignItems="center"
           margin="0"
-          component="section"
         >
           <Brands xs={12} sm={6} md={3}>
             <Item>
