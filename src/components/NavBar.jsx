@@ -76,33 +76,52 @@ function NavBar(props) {
             spacing={5}
             justifyContent="center"
             alignItems="center"
+            sx={{ justifyContent: { xs: "space-around", sm: "center" } }}
             divider={
               <Divider
                 orientation="vertical"
                 flexItem
-                // ---------------------------------
-                // ---------------------------------
-                // ---------------------------------
-                color="#D16014"
-                // ---------------------------------
-                // ---------------------------------
-                // ---------------------------------
+                color="#d16014"
                 sx={{
-                  my: "3px",
+                  my: "4px",
+                  display: { xs: "none", sm: "block" },
                 }}
               />
             }
-            // useFlexGap="true"
           >
             <Stack direction="row" alignItems="center">
-              <WhatsAppIcon color="primary" sx={{ mr: "4px", py: "3px" }} />
-              <Typography color="primary" variant="body2">
-                +54 011 3815-8705
-              </Typography>
+              <Stack
+                sx={{ width: { xs: "auto", sm: "260px" } }}
+                flexDirection="row"
+                alignItems="center"
+                justifyContent="flex-end"
+              >
+                <WhatsAppIcon
+                  color="primary"
+                  sx={{
+                    m: "4px",
+                    py: "2px",
+                    fontSize: { xs: "20px", lg: "25px" },
+                  }}
+                />
+                <Typography
+                  color="primary"
+                  variant="body2"
+                  sx={{ fontSize: { xs: "12px", lg: "14px" } }}
+                >
+                  +54 011 3815-8705
+                </Typography>
+              </Stack>
             </Stack>
-            <Typography color="primary" variant="body2">
-              LA TABLADA, PARTIDO DE LA MATANZA
-            </Typography>
+            <Box sx={{ width: { xs: "auto", sm: "260px" } }}>
+              <Typography
+                color="primary"
+                variant="body2"
+                sx={{ fontSize: { xs: "12px", lg: "14px" } }}
+              >
+                LA TABLADA, PARTIDO DE LA MATANZA
+              </Typography>
+            </Box>
           </Stack>
         </Box>
         <Toolbar
@@ -123,13 +142,18 @@ function NavBar(props) {
           </Box>
           <Card
             sx={{
-              maxWidth: { xs: "60px", md: "90px" },
+              // maxWidth: { xs: "60px", md: "90px" },
               backgroundColor: "transparent",
               boxShadow: "none",
               margin: "10px",
+              width: { md: "140px" },
             }}
           >
-            <CardMedia component="img" image={logo} />
+            <CardMedia
+              component="img"
+              image={logo}
+              sx={{ maxWidth: { xs: "60px", md: "90px" } }}
+            />
           </Card>
           <List sx={{ display: { xs: "none", md: "flex" } }}>
             <ListItem>
@@ -155,12 +179,24 @@ function NavBar(props) {
               </Link>
             </ListItem>
           </List>
-          <Button variant="contained" color="error">
-            <WhatsAppIcon sx={{ mr: "4px" }} />
-            {/* <Typography sx={{ display: { xs: "none", md: "block" } }}> */}
-            Escribinos
-            {/* </Typography> */}
+          <Button
+            variant="contained"
+            color="error"
+            startIcon={<WhatsAppIcon />}
+            sx={{ display: { xs: "none", md: "flex" } }}
+            aria-label="escribinos"
+          >
+            <Typography fontWeight={500} fontSize="1em" letterSpacing={1}>
+              Escribinos
+            </Typography>
           </Button>
+          {/* deja solo el logo de wpp para mobile */}
+          <IconButton
+            color="secondary"
+            sx={{ display: { xs: "block", md: "none" } }}
+          >
+            <WhatsAppIcon />
+          </IconButton>
         </Toolbar>
       </AppBar>
       <nav>

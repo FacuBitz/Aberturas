@@ -230,7 +230,12 @@ export default function Home() {
           NOSOTROS
         </Typography>
         <Divider width="100px" />
-        <Typography maxWidth="1000px" textAlign="center" fontWeight="500">
+        <Typography
+          maxWidth="1000px"
+          textAlign="center"
+          fontWeight="500"
+          sx={{ width: { xs: "85%", lg: "95%" } }}
+        >
           SOMOS UNA EMPRESA FAMILIAR CON MAS DE 10 AÑOS DE EXPERIENCIA EN EL
           RUBRO DE LAS ABERTURAS. BRINDANDO UNA GRAN ATENCION PERSONALIZADA Y
           SERVICIO POST-VENTA PARA RESOLVER TODO TIPO DE INQUIETUDES.
@@ -241,7 +246,13 @@ export default function Home() {
         <Button variant="contained" color="error">
           CONOCER MAS
         </Button>
-        <Stack flexDirection="row" spacing={25} marginY="30px">
+        <Stack
+          flexDirection="row"
+          marginY="30px"
+          sx={{ gap: { xs: "50px", md: "200px" } }}
+          flexWrap="wrap"
+          justifyContent="center"
+        >
           <Typography variant="button" display="flex" alignItems="center">
             <DoneIcon color="error" sx={{ mx: "2px" }} />
             COMPROMISO
