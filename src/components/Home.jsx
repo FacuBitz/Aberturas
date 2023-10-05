@@ -31,7 +31,13 @@ const Item = styled(Box)(({ theme }) => ({
   display: "flex",
   justifyContent: "center",
   width: "15vw",
-  maxWidth: "300px",
+  [theme.breakpoints.down("md")]: {
+    width: "20vw",
+  },
+  [theme.breakpoints.down("sm")]: {
+    width: "30vw",
+  },
+  // maxWidth: "300px",
 }));
 const Brands = styled(Grid)(() => ({
   display: "flex",
@@ -74,7 +80,7 @@ export default function Home() {
             <Item>
               <Card
                 sx={{
-                  maxWidth: { xs: "60px", sm: "70px" },
+                  maxWidth: { xs: "75px", sm: "70px" },
                   backgroundColor: "transparent",
                   boxShadow: "none",
                 }}
@@ -87,7 +93,7 @@ export default function Home() {
             <Item>
               <Card
                 sx={{
-                  maxWidth: { xs: "60px", sm: "160px" },
+                  maxWidth: { xs: "120px", sm: "160px" },
                   backgroundColor: "transparent",
                   boxShadow: "none",
                 }}
@@ -100,7 +106,7 @@ export default function Home() {
             <Item>
               <Card
                 sx={{
-                  maxWidth: { xs: "60px", sm: "200px" },
+                  maxWidth: { xs: "120px", sm: "200px" },
                   backgroundColor: "transparent",
                   boxShadow: "none",
                 }}
@@ -113,7 +119,7 @@ export default function Home() {
             <Item>
               <Card
                 sx={{
-                  maxWidth: { xs: "60px", sm: "160px" },
+                  maxWidth: { xs: "120px", sm: "160px" },
                   backgroundColor: "transparent",
                   boxShadow: "none",
                 }}
@@ -126,7 +132,7 @@ export default function Home() {
             <Item>
               <Card
                 sx={{
-                  maxWidth: { xs: "60px", sm: "150px" },
+                  maxWidth: { xs: "120px", sm: "150px" },
                   backgroundColor: "transparent",
                   boxShadow: "none",
                 }}
@@ -139,7 +145,7 @@ export default function Home() {
             <Item>
               <Card
                 sx={{
-                  maxWidth: { xs: "60px", sm: "80px" },
+                  maxWidth: { xs: "90px", sm: "80px" },
                   backgroundColor: "transparent",
                   boxShadow: "none",
                 }}
@@ -174,7 +180,7 @@ export default function Home() {
           >
             <Card
               sx={{
-                maxWidth: { xs: "60px", sm: "75px" },
+                maxWidth: { xs: "80px", sm: "75px" },
                 backgroundColor: "transparent",
                 boxShadow: "none",
               }}
@@ -205,7 +211,7 @@ export default function Home() {
           >
             <Card
               sx={{
-                maxWidth: { xs: "60px", sm: "90px" },
+                maxWidth: { xs: "80px", sm: "90px" },
                 backgroundColor: "transparent",
                 boxShadow: "none",
               }}
@@ -249,6 +255,7 @@ export default function Home() {
         <Stack
           flexDirection="row"
           marginY="30px"
+          marginX="10px"
           sx={{ gap: { xs: "50px", md: "200px" } }}
           flexWrap="wrap"
           justifyContent="center"

@@ -102,6 +102,7 @@ function NavBar(props) {
                     m: "4px",
                     py: "2px",
                     fontSize: { xs: "20px", lg: "25px" },
+                    display: { xs: "none", br400: "block" },
                   }}
                 />
                 <Typography

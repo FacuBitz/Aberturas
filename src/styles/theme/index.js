@@ -1,12 +1,5 @@
 import { createTheme } from "@mui/material";
 
-// export const Colors = {
-//   primary: "rgb(246, 248, 255)",
-//   // light_primary: "rgb(236, 124, 50)",
-//   secondary: "rgb(12, 12, 12)",
-//   warning: "rgb(209, 96, 20)",
-// };
-
 const theme = createTheme({
   // si genera error en algun stack sacar esto
   components: {
@@ -41,7 +34,7 @@ const theme = createTheme({
   breakpoints: {
     values: {
       xs: 0,
-      s400: 400,
+      br400: 400,
       sm: 600,
       md: 900,
       lg: 1200,
