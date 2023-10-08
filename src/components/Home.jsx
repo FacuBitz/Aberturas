@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import {
   Button,
   Card,
+  CardActionArea,
   CardContent,
   CardMedia,
   Container,
@@ -25,6 +26,10 @@ import Grid from "@mui/material/Unstable_Grid2";
 import DoneIcon from "@mui/icons-material/Done";
 import puerta from "../assets/img/puerta-lucio.png";
 import ventana from "../assets/img/ventana-lucio.png";
+import arquitectos from "../assets/img/arquitectos.jpg";
+import envios from "../assets/img/envios-a-todo-el-pais.jpg";
+import fabricacion from "../assets/img/fabricacion.jpg";
+import pagos from "../assets/img/medios-de-pago.jpg";
 
 const Item = styled(Box)(({ theme }) => ({
   padding: theme.spacing(1),
@@ -42,6 +47,13 @@ const Item = styled(Box)(({ theme }) => ({
 const Brands = styled(Grid)(() => ({
   display: "flex",
   justifyContent: "center",
+}));
+const Services = styled(Card)(({ theme }) => ({
+  // [theme.breakpoints.down("md")]: {
+  //   width: "45vw",
+  // }
+  backgroundColor: "transparent",
+  boxShadow: "none",
 }));
 
 export default function Home() {
@@ -279,7 +291,7 @@ export default function Home() {
         backgroundColor="secondary.light"
         width="100%"
         alignItems="center"
-        paddingTop="30px"
+        paddingY="30px"
       >
         <Stack alignItems="center" spacing="10px" maxWidth="xl">
           <Typography
@@ -294,63 +306,68 @@ export default function Home() {
           <Divider width="100px" color="#D16014" />
           <Grid
             container
-            spacing={2}
+            spacing={4}
             display="flex"
             alignItems="center"
-            margin="0"
+            marginX="20px"
+            marginY="0"
             paddingTop="20px"
           >
             <Brands xs={12} sm={6} md={3}>
-              <Item>
-                <Card
-                  sx={{
-                    maxWidth: { xs: "60px", sm: "70px" },
-                    backgroundColor: "transparent",
-                    boxShadow: "none",
-                  }}
-                >
-                  <CardMedia component="img" image={aluar} />
-                </Card>
-              </Item>
+              <Services className="services__overlay">
+                <CardMedia
+                  component="img"
+                  image={arquitectos}
+                  className="image__overlay"
+                />
+                <Box className="overlay">
+                  <Typography className="text__overlay" variant="button">
+                    Arquitectos
+                  </Typography>
+                </Box>
+              </Services>
             </Brands>
             <Brands xs={12} sm={6} md={3}>
-              <Item>
-                <Card
-                  sx={{
-                    maxWidth: { xs: "60px", sm: "70px" },
-                    backgroundColor: "transparent",
-                    boxShadow: "none",
-                  }}
-                >
-                  <CardMedia component="img" image={aluar} />
-                </Card>
-              </Item>
+              <Services className="services__overlay">
+                <CardMedia
+                  component="img"
+                  image={envios}
+                  className="image__overlay"
+                />
+                <Box className="overlay">
+                  <Typography className="text__overlay" variant="button">
+                    Envios a todo el pais
+                  </Typography>
+                </Box>
+              </Services>
             </Brands>
             <Brands xs={12} sm={6} md={3}>
-              <Item>
-                <Card
-                  sx={{
-                    maxWidth: { xs: "60px", sm: "70px" },
-                    backgroundColor: "transparent",
-                    boxShadow: "none",
-                  }}
-                >
-                  <CardMedia component="img" image={aluar} />
-                </Card>
-              </Item>
+              <Services className="services__overlay">
+                <CardMedia
+                  component="img"
+                  image={fabricacion}
+                  className="image__overlay"
+                />
+                <Box className="overlay">
+                  <Typography className="text__overlay" variant="button">
+                    Fabricacion propia
+                  </Typography>
+                </Box>
+              </Services>
             </Brands>
             <Brands xs={12} sm={6} md={3}>
-              <Item>
-                <Card
-                  sx={{
-                    maxWidth: { xs: "60px", sm: "70px" },
-                    backgroundColor: "transparent",
-                    boxShadow: "none",
-                  }}
-                >
-                  <CardMedia component="img" image={aluar} />
-                </Card>
-              </Item>
+              <Services className="services__overlay">
+                <CardMedia
+                  component="img"
+                  image={pagos}
+                  className="image__overlay"
+                />
+                <Box className="overlay">
+                  <Typography className="text__overlay" variant="button">
+                    Todos los medios de pago
+                  </Typography>
+                </Box>
+              </Services>
             </Brands>
           </Grid>
         </Stack>
