@@ -180,24 +180,34 @@ function NavBar(props) {
               </Link>
             </ListItem>
           </List>
-          <Button
-            variant="contained"
-            color="error"
-            startIcon={<WhatsAppIcon />}
-            sx={{ display: { xs: "none", md: "flex" } }}
-            aria-label="escribinos"
-          >
-            <Typography fontWeight={500} fontSize="1em" letterSpacing={1}>
-              Escribinos
-            </Typography>
-          </Button>
+          <Box sx={{ display: { xs: "none", md: "flex" } }}>
+            <Link
+              to={"https://wa.me/+5491138158705?text=Hola%20quiero%20puertas"}
+              target="_blank"
+            >
+              <Button
+                aria-label="escribinos"
+                variant="contained"
+                color="error"
+                startIcon={<WhatsAppIcon />}
+              >
+                <Typography fontWeight={500} fontSize="1em" letterSpacing={1}>
+                  Escribinos
+                </Typography>
+              </Button>
+            </Link>
+          </Box>
           {/* deja solo el logo de wpp para mobile */}
-          <IconButton
-            color="secondary"
-            sx={{ display: { xs: "block", md: "none" } }}
-          >
-            <WhatsAppIcon />
-          </IconButton>
+          <Box sx={{ display: { xs: "block", md: "none" } }}>
+            <Link
+              to={"https://wa.me/+5491138158705?text=Hola%20quiero%20puertas"}
+              target="_blank"
+            >
+              <IconButton color="secondary">
+                <WhatsAppIcon />
+              </IconButton>
+            </Link>
+          </Box>
         </Toolbar>
       </AppBar>
       <nav>
