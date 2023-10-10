@@ -8,6 +8,7 @@ import logoBlanco from "../assets/img/logo-lucio-blanco.png";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import PlaceIcon from "@mui/icons-material/Place";
+import InstagramIcon from "@mui/icons-material/Instagram";
 
 const Item = styled(Box)(({ theme }) => ({
   padding: theme.spacing(1),
@@ -48,11 +49,25 @@ export default function Footer() {
                   Aberturaslucios@gmail.com
                 </Typography>
               </ListItem>
+              <ListItem>
+                <InstagramIcon color="error" sx={{ mr: "4px", fontSize: 20 }} />
+                <Typography variant="body2" color="primary">
+                  aberturaslucios
+                </Typography>
+              </ListItem>
             </List>
           </Item>
         </Grid>
 
-        <Grid item xs={12} sm={2} md={3}>
+        <Grid
+          item
+          xs={12}
+          sm={2}
+          md={3}
+          display="flex"
+          justifyContent="center"
+          alignItems="center"
+        >
           <Item sx={{ justifyContent: { xs: "flex-start", sm: "center" } }}>
             <Card
               sx={{

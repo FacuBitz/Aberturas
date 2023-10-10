@@ -30,6 +30,7 @@ import arquitectos from "../assets/img/arquitectos.jpg";
 import envios from "../assets/img/envios-a-todo-el-pais.jpg";
 import fabricacion from "../assets/img/fabricacion.jpg";
 import pagos from "../assets/img/medios-de-pago.jpg";
+import { Link } from "react-router-dom";
 
 const Item = styled(Box)(({ theme }) => ({
   padding: theme.spacing(1),
@@ -205,14 +206,9 @@ export default function Home() {
             </Card>
           </Grid>
           <Grid xs={12} sm={4} display="flex" justifyContent="center">
-            <Typography
-              variant="button"
-              textAlign="center"
-              lineHeight="18px"
-              color="error"
-            >
-              Nuestros productos
-            </Typography>
+            <Link to="/catalogue">
+              <Button color="error">Nuestros productos</Button>
+            </Link>
           </Grid>
           <Grid
             xs={12}
@@ -261,9 +257,11 @@ export default function Home() {
         <Typography fontWeight="500" component="h3">
           ¡COTIZAMOS TODO TIPO DE OBRA!
         </Typography>
-        <Button variant="contained" color="error">
-          CONOCER MAS
-        </Button>
+        <Link to="/empresa">
+          <Button variant="contained" color="error">
+            CONOCER MAS
+          </Button>
+        </Link>
         <Stack
           flexDirection="row"
           marginY="30px"
@@ -272,15 +270,30 @@ export default function Home() {
           flexWrap="wrap"
           justifyContent="center"
         >
-          <Typography variant="button" display="flex" alignItems="center">
+          <Typography
+            variant="button"
+            display="flex"
+            alignItems="center"
+            width="126px"
+          >
             <DoneIcon color="error" sx={{ mx: "2px" }} />
             COMPROMISO
           </Typography>
-          <Typography variant="button" display="flex" alignItems="center">
+          <Typography
+            variant="button"
+            display="flex"
+            alignItems="center"
+            width="126px"
+          >
             <DoneIcon color="error" sx={{ mx: "2px" }} />
             CONFIANZA
           </Typography>
-          <Typography variant="button" display="flex" alignItems="center">
+          <Typography
+            variant="button"
+            display="flex"
+            alignItems="center"
+            width="126px"
+          >
             <DoneIcon color="error" sx={{ mx: "2px" }} />
             GARANTIA
           </Typography>
