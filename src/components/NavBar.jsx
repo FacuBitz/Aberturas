@@ -14,14 +14,37 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
-import { Card, CardMedia, Stack } from "@mui/material";
+import {
+  Card,
+  CardMedia,
+  Fade,
+  Menu,
+  MenuItem,
+  Slide,
+  Stack,
+  useScrollTrigger,
+} from "@mui/material";
 import logo from "../assets/img/logo-lucio.png";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 const drawerWidth = 240;
 
+// ----------- Funcion para que baje el navbar al hacer scroll -----------------
+// function HideOnScroll(props) {
+//   const { children, window } = props;
+//   const trigger = useScrollTrigger({
+//     target: window ? window() : undefined,
+//   });
+//   return (
+//     <Slide appear={false} direction="down" in={!trigger}>
+//       {children}
+//     </Slide>
+//   );
+// }
+
 function NavBar(props) {
+  // drawer toggle
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
@@ -65,11 +88,30 @@ function NavBar(props) {
   const container =
     window !== undefined ? () => window().document.body : undefined;
 
+  // handle menu "productos"
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
   return (
-    <Box component="header" sx={{ display: "flex" }}>
-      {/* position viene fixed pero me tapa parte del main, tener en cuenta */}
+    <Box
+      component="header"
+      sx={{
+        display: "flex",
+        //  height: { xs: "108px", md: "135px" }
+        // para activar scroll sacar comentarios al height, function HideOnScroll y etiqueta HideOnScroll
+        // tambien sacar  position="sticky" del AppBar
+        // dejo comentado porq enrealidad esta mal darle un height al navbar, mala practica
+      }}
+    >
+      {/* position viene fixed pero me tapa parte del main, tener en cuenta, puedo sobreescribirle un height pero esta mal */}
+      {/* <HideOnScroll {...props}> */}
       <AppBar component="nav" position="sticky">
-        {/* ------------------------------------------------ */}
         <Box backgroundColor="secondary.dark">
           <Stack
             direction="row"
@@ -168,11 +210,38 @@ function NavBar(props) {
               </Link>
             </ListItem>
             <ListItem>
-              <Link to="/catalogue">
-                <Button endIcon={<KeyboardArrowDownIcon />} color="secondary">
-                  Productos
-                </Button>
-              </Link>
+              {/* <Link to="/catalogue"> */}
+              {/* ----------------- darle link a cada menu item ------------- */}
+              <Button
+                endIcon={<KeyboardArrowDownIcon />}
+                color="secondary"
+                id="prods-button"
+                aria-controls={open ? "prods-menu" : undefined}
+                aria-haspopup="true"
+                aria-expanded={open ? "true" : undefined}
+                onClick={handleClick}
+              >
+                Productos
+              </Button>
+              <Menu
+                id="prods-menu"
+                anchorEl={anchorEl}
+                open={open}
+                onClose={handleClose}
+                // TransitionComponent={Fade}
+                MenuListProps={{
+                  "aria-labelledby": "prods-button",
+                }}
+              >
+                {/* <MenuItem onClick={handleClose}>Todos los productos</MenuItem> */}
+                {/* <Divider /> */}
+                <MenuItem onClick={handleClose}>Puertas</MenuItem>
+                <MenuItem onClick={handleClose}>Aluminio</MenuItem>
+                <MenuItem onClick={handleClose}>Portones</MenuItem>
+                <MenuItem onClick={handleClose}>Vidrios</MenuItem>
+                <MenuItem onClick={handleClose}>Frentes de placard</MenuItem>
+              </Menu>
+              {/* </Link> */}
             </ListItem>
             <ListItem>
               <Link to="/">
@@ -210,6 +279,7 @@ function NavBar(props) {
           </Box>
         </Toolbar>
       </AppBar>
+      {/* </HideOnScroll> */}
       <nav>
         <Drawer
           container={container}
