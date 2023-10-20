@@ -32,6 +32,7 @@ import fabricacion from "../assets/img/fabricacion.jpg";
 import pagos from "../assets/img/medios-de-pago.jpg";
 import { Link } from "react-router-dom";
 
+// Custom Box for brands display
 const Item = styled(Box)(({ theme }) => ({
   padding: theme.spacing(1),
   display: "flex",
@@ -45,10 +46,14 @@ const Item = styled(Box)(({ theme }) => ({
   },
   // maxWidth: "300px",
 }));
+
+// Custom Grid for brands display
 const Brands = styled(Grid)(() => ({
   display: "flex",
   justifyContent: "center",
 }));
+
+// Custom Card for services img
 const Services = styled(Card)(({ theme }) => ({
   // [theme.breakpoints.down("md")]: {
   //   width: "45vw",

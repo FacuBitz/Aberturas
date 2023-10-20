@@ -27,8 +27,17 @@ import {
 import logo from "../assets/img/logo-lucio.png";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import { styled } from "@mui/material/styles";
 
 const drawerWidth = 240;
+
+// Custom Link for dropwdown menu
+const CustomLink = styled(Link)(() => ({
+  component: "a",
+  // no funcionan aca :(
+  // className: "dropdown-content-link",
+  // onClick: { handleClose },
+}));
 
 // ----------- Funcion para que baje el navbar al hacer scroll -----------------
 // function HideOnScroll(props) {
@@ -88,7 +97,7 @@ function NavBar(props) {
   const container =
     window !== undefined ? () => window().document.body : undefined;
 
-  // handle menu "productos"
+  // handle menu dropdown de "productos"
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
@@ -210,8 +219,6 @@ function NavBar(props) {
               </Link>
             </ListItem>
             <ListItem>
-              {/* <Link to="/catalogue"> */}
-              {/* ----------------- darle link a cada menu item ------------- */}
               <Button
                 endIcon={<KeyboardArrowDownIcon />}
                 color="secondary"
@@ -228,20 +235,111 @@ function NavBar(props) {
                 anchorEl={anchorEl}
                 open={open}
                 onClose={handleClose}
-                // TransitionComponent={Fade}
                 MenuListProps={{
                   "aria-labelledby": "prods-button",
                 }}
               >
-                {/* <MenuItem onClick={handleClose}>Todos los productos</MenuItem> */}
-                {/* <Divider /> */}
-                <MenuItem onClick={handleClose}>Puertas</MenuItem>
-                <MenuItem onClick={handleClose}>Aluminio</MenuItem>
-                <MenuItem onClick={handleClose}>Portones</MenuItem>
-                <MenuItem onClick={handleClose}>Vidrios</MenuItem>
-                <MenuItem onClick={handleClose}>Frentes de placard</MenuItem>
+                <MenuItem className="dropdown">
+                  <Typography>Puertas</Typography>
+                  <div className="dropdown-content">
+                    <CustomLink
+                      to={`/category/${"interior"}`}
+                      className="dropdown-content-link"
+                      onClick={handleClose}
+                    >
+                      Interior
+                    </CustomLink>
+                    <CustomLink
+                      to={`/category/${"exterior"}`}
+                      className="dropdown-content-link"
+                      onClick={handleClose}
+                    >
+                      Exterior
+                    </CustomLink>
+                  </div>
+                </MenuItem>
+                <MenuItem className="dropdown">
+                  <Typography>Portones</Typography>
+                  <div className="dropdown-content">
+                    <CustomLink
+                      to={`/category/${"aluminio"}`}
+                      className="dropdown-content-link"
+                      onClick={handleClose}
+                    >
+                      Aluminio
+                    </CustomLink>
+                    <CustomLink
+                      to={`/category/${"chapa"}`}
+                      className="dropdown-content-link"
+                      onClick={handleClose}
+                    >
+                      Chapa
+                    </CustomLink>
+                  </div>
+                </MenuItem>
+                <MenuItem className="dropdown">
+                  <Typography>Aluminio</Typography>
+                  <div className="dropdown-content">
+                    <CustomLink
+                      to={`/category/${"modena"}`}
+                      className="dropdown-content-link"
+                      onClick={handleClose}
+                    >
+                      Linea Modena
+                    </CustomLink>
+                    <CustomLink
+                      to={`/category/${"a30"}`}
+                      className="dropdown-content-link"
+                      onClick={handleClose}
+                    >
+                      A30 New
+                    </CustomLink>
+                    <CustomLink
+                      to={`/category/${"herrero"}`}
+                      className="dropdown-content-link"
+                      onClick={handleClose}
+                    >
+                      Herrero
+                    </CustomLink>
+                    <CustomLink
+                      to={`/category/${"lateral"}`}
+                      className="dropdown-content-link"
+                      onClick={handleClose}
+                    >
+                      Con Lateral
+                    </CustomLink>
+                  </div>
+                </MenuItem>
+                <MenuItem className="dropdown">
+                  <Typography>Vidrios</Typography>
+                  <div className="dropdown-content">
+                    <CustomLink
+                      to={`/category/${"float"}`}
+                      className="dropdown-content-link"
+                      onClick={handleClose}
+                    >
+                      Float
+                    </CustomLink>
+                    <CustomLink
+                      to={`/category/${"dum"}`}
+                      className="dropdown-content-link"
+                      onClick={handleClose}
+                    >
+                      Dum
+                    </CustomLink>
+                    <CustomLink
+                      to={`/category/${"laminados"}`}
+                      className="dropdown-content-link"
+                      onClick={handleClose}
+                    >
+                      Laminados
+                    </CustomLink>
+                  </div>
+                </MenuItem>
+                <MenuItem onClick={handleClose}>
+                  <Link to={`/category/${"placard"}`}>Frentes de placard</Link>
+                </MenuItem>
               </Menu>
-              {/* </Link> */}
             </ListItem>
             <ListItem>
               <Link to="/">

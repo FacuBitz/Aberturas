@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Negra 1",
+    "img": "/public-img/fotopuerta.jpg",
+    "category": "interior",
+    "subCategory": "abrir"
+  },
+  {
+    "id": 2,
+    "name": "Negra 2",
+    "img": "/public-img/fotopuerta.jpg",
+    "category": "interior",
+    "subCategory": "abrir"
+  },
+  {
+    "id": 3,
+    "name": "Negra 3",
+    "img": "/public-img/fotopuerta.jpg",
+    "category": "exterior",
+    "subCategory": "abrir"
+  },
+  {
+    "id": 4,
+    "name": "Marron 1",
+    "img": "/public-img/fotopuerta.jpg",
+    "category": "exterior",
+    "subCategory": "corredizas"
+  },
+  {
+    "id": 5,
+    "name": "Marron 2",
+    "img": "/public-img/fotopuerta.jpg",
+    "category": "exterior",
+    "subCategory": "corredizas"
+  },
+  {
+    "id": 6,
+    "name": "Aluminio 1",
+    "img": "/public-img/fotopuerta.jpg",
+    "category": "puertas",
+    "subCategory": "chapa"
+  },
+  {
+    "id": 7,
+    "name": "Aluminio 2",
+    "img": "/public-img/fotopuerta.jpg",
+    "category": "puertas",
+    "subCategory": "madera"
+  },
+  {
+    "id": 8,
+    "name": "Vidrio Float",
+    "img": "/public-img/ventanal.jpg",
+    "category": "float",
+    "subCategory": "float"
+  },
+  {
+    "id": 9,
+    "name": "Vidrio Dum",
+    "img": "/public-img/ventanal.jpg",
+    "category": "dum",
+    "subCategory": "dum"
+  }
+]
