@@ -1,27 +1,16 @@
 import React from "react";
 import { useEffect } from "react";
-import {
-  Button,
-  Card,
-  CardActionArea,
-  CardContent,
-  CardMedia,
-  Container,
-  Divider,
-  Stack,
-} from "@mui/material";
+import { Button, Card, CardMedia, Divider, Stack } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 // import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import { AspectRatio } from "@mui/icons-material";
 import aluar from "../assets/img/logo-aluar.png";
 import caia from "../assets/img/logo-caia.png";
 import elitalo from "../assets/img/logo-elitalo.png";
 import pavir from "../assets/img/logo-pavir.png";
 import potenza from "../assets/img/logo-potenza.png";
 import vasa from "../assets/img/logo-vasa.png";
-import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Unstable_Grid2";
 import DoneIcon from "@mui/icons-material/Done";
 import puerta from "../assets/img/puerta-lucio.png";

@@ -1,43 +1,42 @@
 import React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import CssBaseline from "@mui/material/CssBaseline";
 import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
-import {
-  Card,
-  CardMedia,
-  Fade,
-  Menu,
-  MenuItem,
-  Slide,
-  Stack,
-  useScrollTrigger,
-} from "@mui/material";
+import { Card, CardMedia, Menu, MenuItem, Stack } from "@mui/material";
 import logo from "../assets/img/logo-lucio.png";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { styled } from "@mui/material/styles";
+import Accordion from "@mui/material/Accordion";
+import AccordionDetails from "@mui/material/AccordionDetails";
+import AccordionSummary from "@mui/material/AccordionSummary";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const drawerWidth = 240;
 
 // Custom Link for dropwdown menu
 const CustomLink = styled(Link)(() => ({
   component: "a",
-  // no funcionan aca :(
+  // -------------------- no funcionan aca :(  tratar de que funcione ----------------------
   // className: "dropdown-content-link",
   // onClick: { handleClose },
 }));
+
+// Custom Accordion for responsive app bar
+// ---------------- No funciona, estaria bueno porq ahorra mucho codigo, tratar de que funcione -------------------
+// const CustomAccordion = styled(Accordion)(() => ({
+//   disableGutters: true,
+//   boxShadow: 0,
+// }));
 
 // ----------- Funcion para que baje el navbar al hacer scroll -----------------
 // function HideOnScroll(props) {
@@ -59,33 +58,240 @@ function NavBar(props) {
 
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
+    //---------------- lo de abajo cierra el drawer al filtrar pero hace que se trabe un poco, que hago? ---------------
+    // expanded ? panel : false;
+  };
+
+  // Accordion for responsive
+  const [expanded, setExpanded] = React.useState(false);
+
+  const handleChange = (panel) => (event, isExpanded) => {
+    setExpanded(isExpanded ? panel : false);
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
+    <Box sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
         Lucio's Aberturas
       </Typography>
       <Divider />
       <List disablePadding>
-        <ListItem sx={{ justifyContent: "center" }}>
+        <ListItem
+          sx={{ justifyContent: "center" }}
+          onClick={handleDrawerToggle}
+        >
           <Link to="/">
             <Button color="secondary">Home</Button>
           </Link>
         </ListItem>
-        <ListItem sx={{ justifyContent: "center" }}>
+        <ListItem
+          sx={{ justifyContent: "center" }}
+          onClick={handleDrawerToggle}
+        >
           <Link to="/empresa">
             <Button color="secondary">Empresa</Button>
           </Link>
         </ListItem>
         <ListItem sx={{ justifyContent: "center" }}>
-          <Link to="/catalogue">
-            <Button endIcon={<KeyboardArrowDownIcon />} color="secondary">
-              Productos
-            </Button>
-          </Link>
+          <Accordion
+            TransitionProps={{ unmountOnExit: true }}
+            disableGutters
+            sx={{ boxShadow: 0 }}
+          >
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <Typography variant="button">Productos</Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Accordion
+                disableGutters
+                expanded={expanded === "panel1"}
+                onChange={handleChange("panel1")}
+                sx={{ boxShadow: 0 }}
+              >
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel1bh-content"
+                  id="panel1bh-header"
+                >
+                  <Typography sx={{ width: "33%", flexShrink: 0 }}>
+                    Puertas
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Button>
+                    <CustomLink
+                      to={`/category/${"interior"}`}
+                      className="dropdown-content-link"
+                      onClick={handleDrawerToggle}
+                    >
+                      Interior
+                    </CustomLink>
+                  </Button>
+                  <Button>
+                    <CustomLink
+                      to={`/category/${"exterior"}`}
+                      className="dropdown-content-link"
+                      onClick={handleDrawerToggle}
+                    >
+                      Exterior
+                    </CustomLink>
+                  </Button>
+                </AccordionDetails>
+              </Accordion>
+              <Accordion
+                disableGutters
+                expanded={expanded === "panel2"}
+                onChange={handleChange("panel2")}
+                sx={{ boxShadow: 0 }}
+              >
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel2bh-content"
+                  id="panel2bh-header"
+                >
+                  <Typography sx={{ width: "33%", flexShrink: 0 }}>
+                    Portones
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Button>
+                    <CustomLink
+                      to={`/category/${"aluminio"}`}
+                      className="dropdown-content-link"
+                      onClick={handleDrawerToggle}
+                    >
+                      Aluminio
+                    </CustomLink>
+                  </Button>
+                  <Button>
+                    <CustomLink
+                      to={`/category/${"chapa"}`}
+                      className="dropdown-content-link"
+                      onClick={handleDrawerToggle}
+                    >
+                      Chapa
+                    </CustomLink>
+                  </Button>
+                </AccordionDetails>
+              </Accordion>
+              <Accordion
+                disableGutters
+                expanded={expanded === "panel3"}
+                onChange={handleChange("panel3")}
+                sx={{ boxShadow: 0 }}
+              >
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel3bh-content"
+                  id="panel3bh-header"
+                >
+                  <Typography sx={{ width: "33%", flexShrink: 0 }}>
+                    Aluminio
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Button>
+                    <CustomLink
+                      to={`/category/${"modena"}`}
+                      className="dropdown-content-link"
+                      onClick={handleDrawerToggle}
+                    >
+                      Linea Modena
+                    </CustomLink>
+                  </Button>
+                  <Button>
+                    <CustomLink
+                      to={`/category/${"a30"}`}
+                      className="dropdown-content-link"
+                      onClick={handleDrawerToggle}
+                    >
+                      A30 New
+                    </CustomLink>
+                  </Button>
+                  <Button>
+                    <CustomLink
+                      to={`/category/${"herrero"}`}
+                      className="dropdown-content-link"
+                      onClick={handleDrawerToggle}
+                    >
+                      Herrero
+                    </CustomLink>
+                  </Button>
+                  <Button>
+                    <CustomLink
+                      to={`/category/${"lateral"}`}
+                      className="dropdown-content-link"
+                      onClick={handleDrawerToggle}
+                    >
+                      Con Lateral
+                    </CustomLink>
+                  </Button>
+                </AccordionDetails>
+              </Accordion>
+              <Accordion
+                disableGutters
+                expanded={expanded === "panel4"}
+                onChange={handleChange("panel4")}
+                sx={{ boxShadow: 0 }}
+              >
+                <AccordionSummary
+                  expandIcon={<ExpandMoreIcon />}
+                  aria-controls="panel4bh-content"
+                  id="panel4bh-header"
+                >
+                  <Typography sx={{ width: "33%", flexShrink: 0 }}>
+                    Vidrios
+                  </Typography>
+                </AccordionSummary>
+                <AccordionDetails>
+                  <Button>
+                    <CustomLink
+                      to={`/category/${"float"}`}
+                      className="dropdown-content-link"
+                      onClick={handleDrawerToggle}
+                    >
+                      Float
+                    </CustomLink>
+                  </Button>
+                  <Button>
+                    <CustomLink
+                      to={`/category/${"dum"}`}
+                      className="dropdown-content-link"
+                      onClick={handleDrawerToggle}
+                    >
+                      Dum
+                    </CustomLink>
+                  </Button>
+                  <Button>
+                    <CustomLink
+                      to={`/category/${"laminados"}`}
+                      className="dropdown-content-link"
+                      onClick={handleDrawerToggle}
+                    >
+                      Laminados
+                    </CustomLink>
+                  </Button>
+                </AccordionDetails>
+              </Accordion>
+              <Divider sx={{ marginBottom: "10px" }} />
+              <CustomLink
+                to={`/category/${"placard"}`}
+                className="dropdown-content-link"
+                onClick={handleDrawerToggle}
+              >
+                Frentes de placard
+              </CustomLink>
+            </AccordionDetails>
+          </Accordion>
         </ListItem>
-        <ListItem sx={{ justifyContent: "center" }}>
+        <ListItem
+          sx={{ justifyContent: "center" }}
+          onClick={handleDrawerToggle}
+        >
           <Link to="/">
             <Button color="secondary">Contacto</Button>
           </Link>
@@ -115,7 +321,7 @@ function NavBar(props) {
         //  height: { xs: "108px", md: "135px" }
         // para activar scroll sacar comentarios al height, function HideOnScroll y etiqueta HideOnScroll
         // tambien sacar  position="sticky" del AppBar
-        // dejo comentado porq enrealidad esta mal darle un height al navbar, mala practica
+        // ------------------- dejo comentado porq enrealidad esta mal darle un height al navbar, mala practica -----------------
       }}
     >
       {/* position viene fixed pero me tapa parte del main, tener en cuenta, puedo sobreescribirle un height pero esta mal */}
@@ -398,9 +604,6 @@ function NavBar(props) {
           {drawer}
         </Drawer>
       </nav>
-      {/* <Box component="main" sx={{ p: 3 }}>
-        <Toolbar />
-      </Box> */}
     </Box>
   );
 }
