@@ -1,24 +1,39 @@
-import { Card, CardContent, CardMedia, Stack, Typography } from "@mui/material";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import CardActionArea from "@mui/material/CardActionArea";
+import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
 import React from "react";
+import { Link } from "react-router-dom";
+import { Box } from "@mui/material";
 
-const Item = ({ id, category, name, img }) => {
+const Item = ({ id, title, category, sub, name, img }) => {
   console.log("item");
   return (
-    <div>
+    <Box margin="auto">
       <Card>
-        <CardMedia
-          image={img}
-          component="img"
-          sx={{ maxWidth: { xs: "60px", md: "90px" } }}
-        />
-        <CardContent>
-          <Stack>
-            <Typography>{name}</Typography>
-            <Typography>{id}</Typography>
-          </Stack>
-        </CardContent>
+        <CardActionArea component={Link} to={`/item/${id}`}>
+          <CardMedia
+            image={img}
+            component="img"
+            sx={{
+              maxWidth: { xs: "100px", br400: "320px" },
+              paddingTop: "10px",
+              minWidth: "200px",
+              margin: "auto",
+            }}
+          />
+          <CardContent>
+            <Stack>
+              <Typography variant="button" fontSize="1.1rem" textAlign="center">
+                {name}
+              </Typography>
+            </Stack>
+          </CardContent>
+        </CardActionArea>
       </Card>
-    </div>
+    </Box>
   );
 };
 

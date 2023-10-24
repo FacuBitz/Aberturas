@@ -68,3 +68,12 @@ a {
   text-decoration: none;
   display: block;
 }
+
+/* Classes for item rendering */
+.img {
+  max-width: 100%;
+  height: auto;
+}
+.white-space {
+  white-space: break-spaces;
+}

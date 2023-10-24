@@ -3,41 +3,53 @@ import {
   Button,
   ButtonGroup,
   Card,
+  Container,
   Divider,
   ImageList,
   Stack,
   Typography,
 } from "@mui/material";
 import React from "react";
+import CardMedia from "@mui/material/CardMedia";
 
 const ItemDetail = ({ data }) => {
   return (
-    <div>
+    <Container>
       {data.map((prod) => (
-        <Box pt="50px" key={prod.id}>
-          <Card maxW="sm">
-            <Card>
-              <ImageList src={prod.img} alt={prod.name} borderRadius="lg" />
-              <Stack mt="6" spacing="3">
-                <Typography size="md">{prod.name}</Typography>
-                <Typography>{prod.description}</Typography>
-                <Typography color="blue.600" fontSize="2xl">
-                  {prod.price}
-                </Typography>
-              </Stack>
-            </Card>
-            <Divider />
-            <Box>
-              <ButtonGroup spacing="2">
-                <Button variant="ghost" colorScheme="blue">
-                  Agregar
-                </Button>
-              </ButtonGroup>
+        <Box key={prod.id}>
+          <Stack
+            sx={{ flexDirection: { xs: "column", sm: "row" } }}
+            marginY="80px"
+            justifyContent="center"
+          >
+            <Box maxWidth="500px">
+              <img src={prod.img} className="img" alt={prod.alt} />
             </Box>
-          </Card>
+            <Stack spacing={1}>
+              <Typography
+                variant="button"
+                fontSize="1.5rem"
+                fontWeight={600}
+                color="error"
+              >
+                Caracteristicas
+              </Typography>
+              <Typography variant="h6" color="secondary.light">
+                {prod.title}
+              </Typography>
+              <Typography
+                className="white-space"
+                variant="subtitle2"
+                fontSize="0.96rem"
+                lineHeight="28px"
+              >
+                {prod.description.join("\n - ")}
+              </Typography>
+            </Stack>
+          </Stack>
         </Box>
       ))}
-    </div>
+    </Container>
   );
 };
 

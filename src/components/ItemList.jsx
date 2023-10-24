@@ -3,23 +3,27 @@ import React from "react";
 import Item from "./Item";
 
 const ItemList = ({ products }) => {
-  console.log("ItemList");
-  console.log(products);
   return (
     <div>
-      <Container maxWidth="container.xl">
-        <Stack spacing={4} flexDirection="row">
-          {products.map((product) => (
-            <Item
-              key={product.id}
-              id={product.id}
-              img={product.img}
-              name={product.name}
-              category={product.category}
-            />
-          ))}
-        </Stack>
-      </Container>
+      <Stack
+        spacing={5}
+        flexDirection="row"
+        marginBottom="80px"
+        justifyContent="center"
+        sx={{ flexDirection: { xs: "column", br750: "row" } }}
+      >
+        {products.map((product) => (
+          <Item
+            key={product.id}
+            id={product.id}
+            title={product.title}
+            img={product.img}
+            name={product.name}
+            category={product.category}
+            sub={product.subCategory}
+          />
+        ))}
+      </Stack>
     </div>
   );
 };

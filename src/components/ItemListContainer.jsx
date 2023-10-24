@@ -1,4 +1,4 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Container, Stack, Typography } from "@mui/material";
 import React from "react";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
@@ -36,15 +36,24 @@ const ItemListContainer = () => {
     fetchData();
   }, [category]);
   return (
-    <div>
-      <Box h="100px" color="black">
-        <Typography as="h2" size="2xl">
-          {category}
-          {/* {!category ? <p>Catalogo</p> : <p>{`${category}`}</p>} */}
+    <Container>
+      <Stack
+        height="100px"
+        justifyContent="center"
+        alignItems="center"
+        marginY="20px"
+      >
+        <Typography
+          variant="button"
+          sx={{ fontSize: { xs: "1.3rem", br400: "1.6rem" } }}
+          fontWeight={600}
+          color="secondary.light"
+        >
+          Catalogo {category}
         </Typography>
-      </Box>
+      </Stack>
       <ItemList products={prod} />
-    </div>
+    </Container>
   );
 };
 

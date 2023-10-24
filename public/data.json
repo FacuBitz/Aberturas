@@ -1,38 +1,74 @@
 [
   {
     "id": 1,
-    "name": "Negra 1",
-    "img": "/public-img/fotopuerta.jpg",
+    "title": "Nuevas Puertas PAVIR de acero foliadas",
+    "name": "Placa",
+    "img": "/public-img/foliada-caoba-fuga.png",
+    "alt": "Puerta de interior color marron",
     "category": "interior",
-    "subCategory": "abrir"
+    "subCategory": "abrir",
+    "description": [
+      " - Máxima seguridad: Hojas de 2 ́ ́ espesor + Triple Contacto: sistema antibarreta único en el mercado!",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%.",
+      "Protección anticorrosiva acero galvanizado con cobertura de zinc.",
+      "Terminación superior: modelos foliadas con revestimiento de lámina foliada de PVC simil madera.",
+      "Hermeticidad: únicas puertas con burlete instalado.",
+      "Libre mantenimiento. Resistente al agua y a los rayos UV.",
+      "Cilindro Europerfil con llave computada.",
+      "Diseño superior: barrales de primera calidad y apliques de acero inoxidable.",
+      "Nuevo marco 45° también foliado, que acompaña resaltando el diseño simil madera de las puertas.",
+      "Sistema exclusivo de hoja recambiable: único en el mercado.",
+      "Brinda la posibilidad de reemplazar solo la hoja, sin cambiar el marco"
+    ]
   },
   {
     "id": 2,
-    "name": "Negra 2",
-    "img": "/public-img/fotopuerta.jpg",
+    "title": "Puertas",
+    "name": "Corrediza",
+    "img": "/public-img/foliada-caoba-fuga.png",
     "category": "interior",
     "subCategory": "abrir"
   },
   {
     "id": 3,
-    "name": "Negra 3",
-    "img": "/public-img/fotopuerta.jpg",
-    "category": "exterior",
-    "subCategory": "abrir"
+    "title": "Nuevas Puertas PAVIR de madera",
+    "name": "Madera",
+    "img": "/public-img/foliada-imperia-fuga.jpg",
+    "alt": "Puerta de interior color marron",
+    "category": "interior",
+    "subCategory": "abrir",
+    "description": [
+      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino.",
+      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
+      "Trabajamos con las mejores marcas del mercado, Gromanti, Oblak y  Caia Placas",
+      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura."
+    ]
   },
   {
     "id": 4,
     "name": "Marron 1",
-    "img": "/public-img/fotopuerta.jpg",
+    "img": "/public-img/foliada-caoba-fuga.png",
     "category": "exterior",
-    "subCategory": "corredizas"
+    "subCategory": "corredizas",
+    "description": [
+      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino.",
+      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
+      "Trabajamos con las mejores marcas del mercado, Gromanti, Oblak y  Caia Placas",
+      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura."
+    ]
   },
   {
     "id": 5,
     "name": "Marron 2",
     "img": "/public-img/fotopuerta.jpg",
     "category": "exterior",
-    "subCategory": "corredizas"
+    "subCategory": "corredizas",
+    "description": [
+      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino.",
+      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
+      "Trabajamos con las mejores marcas del mercado, Gromanti, Oblak y  Caia Placas",
+      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura."
+    ]
   },
   {
     "id": 6,
