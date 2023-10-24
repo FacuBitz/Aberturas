@@ -25,6 +25,7 @@ export default function Footer() {
       // bottom="0"
       width="100%"
       component="footer"
+      id="cto"
     >
       <Grid container marginTop="0" maxWidth="2000px">
         <Grid item xs={12} sm={5} md={4.5}>

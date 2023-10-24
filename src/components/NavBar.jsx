@@ -548,9 +548,10 @@ function NavBar(props) {
               </Menu>
             </ListItem>
             <ListItem>
-              <Link to="/">
+              {/* baja pero no cuando estoy en otra pagina, y tampoco lo puedo hacer smooth */}
+              <a href="/#cto">
                 <Button color="secondary">Contacto</Button>
-              </Link>
+              </a>
             </ListItem>
           </List>
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
