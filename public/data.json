@@ -1,101 +1,1333 @@
 [
   {
     "id": 1,
-    "title": "Nuevas Puertas PAVIR de acero foliadas",
-    "name": "Placa",
-    "img": "/public-img/foliada-caoba-fuga.png",
-    "alt": "Puerta de interior color marron",
-    "category": "interior",
-    "subCategory": "abrir",
+    "title": "Nuevas puertas de aluminio",
+    "name": "Aluminio",
+    "img": "/public-img/puerta-aluminio-1.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
     "description": [
-      " - Máxima seguridad: Hojas de 2 ́ ́ espesor + Triple Contacto: sistema antibarreta único en el mercado!",
-      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%.",
-      "Protección anticorrosiva acero galvanizado con cobertura de zinc.",
-      "Terminación superior: modelos foliadas con revestimiento de lámina foliada de PVC simil madera.",
-      "Hermeticidad: únicas puertas con burlete instalado.",
-      "Libre mantenimiento. Resistente al agua y a los rayos UV.",
-      "Cilindro Europerfil con llave computada.",
-      "Diseño superior: barrales de primera calidad y apliques de acero inoxidable.",
-      "Nuevo marco 45° también foliado, que acompaña resaltando el diseño simil madera de las puertas.",
-      "Sistema exclusivo de hoja recambiable: único en el mercado.",
-      "Brinda la posibilidad de reemplazar solo la hoja, sin cambiar el marco"
+      "Las puertas de aluminio se pueden fabricar en diferentes modelos y medidas, son libre mantenimiento y pueden elaborarse con o sin vidrio según elección del comprador. Su característica destacable es su pintura final epoxi, es decir que son libre mantenimiento y no se oxidan.",
+      "Puede ser color blanco, negro o anodizado natural.",
+      "Los modelos estándar son vidrio entero, medio vidrio, ¼ vidrio o totalmente ciega con revestimiento de aluminio.",
+      "Se fabrican puertas simples, dobles y portones de abrir de 3 hojas",
+      "Este producto se puede realizar a medida sin inconvenientes",
+      "ESTE PRODUCTO Y DISEÑOS SE TRABAJA TANTO EN LA LINEA HERRERO COMO EN LA LINEA MODENA DE ALTA PRESTACION."
     ]
   },
   {
     "id": 2,
-    "title": "Puertas",
-    "name": "Corrediza",
-    "img": "/public-img/foliada-caoba-fuga.png",
-    "category": "interior",
-    "subCategory": "abrir"
+    "title": "Nuevas puertas de aluminio",
+    "name": "Aluminio",
+    "img": "/public-img/puerta-aluminio-2.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Las puertas de aluminio se pueden fabricar en diferentes modelos y medidas, son libre mantenimiento y pueden elaborarse con o sin vidrio según elección del comprador. Su característica destacable es su pintura final epoxi, es decir que son libre mantenimiento y no se oxidan.",
+      "Puede ser color blanco, negro o anodizado natural.",
+      "Los modelos estándar son vidrio entero, medio vidrio, ¼ vidrio o totalmente ciega con revestimiento de aluminio.",
+      "Se fabrican puertas simples, dobles y portones de abrir de 3 hojas",
+      "Este producto se puede realizar a medida sin inconvenientes",
+      "ESTE PRODUCTO Y DISEÑOS SE TRABAJA TANTO EN LA LINEA HERRERO COMO EN LA LINEA MODENA DE ALTA PRESTACION."
+    ]
   },
   {
     "id": 3,
-    "title": "Nuevas Puertas PAVIR de madera",
-    "name": "Madera",
-    "img": "/public-img/foliada-imperia-fuga.jpg",
-    "alt": "Puerta de interior color marron",
-    "category": "interior",
-    "subCategory": "abrir",
+    "title": "Nuevas puertas de aluminio",
+    "name": "Aluminio",
+    "img": "/public-img/puerta-aluminio-3.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
     "description": [
-      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino.",
-      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
-      "Trabajamos con las mejores marcas del mercado, Gromanti, Oblak y  Caia Placas",
-      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura."
+      "Las puertas de aluminio se pueden fabricar en diferentes modelos y medidas, son libre mantenimiento y pueden elaborarse con o sin vidrio según elección del comprador. Su característica destacable es su pintura final epoxi, es decir que son libre mantenimiento y no se oxidan.",
+      "Puede ser color blanco, negro o anodizado natural.",
+      "Los modelos estándar son vidrio entero, medio vidrio, ¼ vidrio o totalmente ciega con revestimiento de aluminio.",
+      "Se fabrican puertas simples, dobles y portones de abrir de 3 hojas",
+      "Este producto se puede realizar a medida sin inconvenientes",
+      "ESTE PRODUCTO Y DISEÑOS SE TRABAJA TANTO EN LA LINEA HERRERO COMO EN LA LINEA MODENA DE ALTA PRESTACION."
     ]
   },
   {
     "id": 4,
-    "name": "Marron 1",
-    "img": "/public-img/foliada-caoba-fuga.png",
+    "title": "Nuevas puertas de aluminio",
+    "name": "Aluminio",
+    "img": "/public-img/puerta-aluminio-4.png",
+    "alt": "Puerta de exterior",
     "category": "exterior",
-    "subCategory": "corredizas",
     "description": [
-      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino.",
-      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
-      "Trabajamos con las mejores marcas del mercado, Gromanti, Oblak y  Caia Placas",
-      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura."
+      "Las puertas de aluminio se pueden fabricar en diferentes modelos y medidas, son libre mantenimiento y pueden elaborarse con o sin vidrio según elección del comprador. Su característica destacable es su pintura final epoxi, es decir que son libre mantenimiento y no se oxidan.",
+      "Puede ser color blanco, negro o anodizado natural.",
+      "Los modelos estándar son vidrio entero, medio vidrio, ¼ vidrio o totalmente ciega con revestimiento de aluminio.",
+      "Se fabrican puertas simples, dobles y portones de abrir de 3 hojas",
+      "Este producto se puede realizar a medida sin inconvenientes",
+      "ESTE PRODUCTO Y DISEÑOS SE TRABAJA TANTO EN LA LINEA HERRERO COMO EN LA LINEA MODENA DE ALTA PRESTACION."
     ]
   },
   {
     "id": 5,
-    "name": "Marron 2",
-    "img": "/public-img/fotopuerta.jpg",
+    "title": "Nuevas puertas de aluminio",
+    "name": "Aluminio",
+    "img": "/public-img/puerta-aluminio-5.png",
+    "alt": "Puerta de exterior",
     "category": "exterior",
-    "subCategory": "corredizas",
     "description": [
-      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino.",
-      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
-      "Trabajamos con las mejores marcas del mercado, Gromanti, Oblak y  Caia Placas",
-      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura."
+      "Las puertas de aluminio se pueden fabricar en diferentes modelos y medidas, son libre mantenimiento y pueden elaborarse con o sin vidrio según elección del comprador. Su característica destacable es su pintura final epoxi, es decir que son libre mantenimiento y no se oxidan.",
+      "Puede ser color blanco, negro o anodizado natural.",
+      "Los modelos estándar son vidrio entero, medio vidrio, ¼ vidrio o totalmente ciega con revestimiento de aluminio.",
+      "Se fabrican puertas simples, dobles y portones de abrir de 3 hojas",
+      "Este producto se puede realizar a medida sin inconvenientes",
+      "ESTE PRODUCTO Y DISEÑOS SE TRABAJA TANTO EN LA LINEA HERRERO COMO EN LA LINEA MODENA DE ALTA PRESTACION."
     ]
   },
   {
     "id": 6,
-    "name": "Aluminio 1",
-    "img": "/public-img/fotopuerta.jpg",
-    "category": "puertas",
-    "subCategory": "chapa"
+    "title": "Nuevas puertas de aluminio",
+    "name": "Aluminio",
+    "img": "/public-img/puerta-aluminio-6.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Las puertas de aluminio se pueden fabricar en diferentes modelos y medidas, son libre mantenimiento y pueden elaborarse con o sin vidrio según elección del comprador. Su característica destacable es su pintura final epoxi, es decir que son libre mantenimiento y no se oxidan.",
+      "Puede ser color blanco, negro o anodizado natural.",
+      "Los modelos estándar son vidrio entero, medio vidrio, ¼ vidrio o totalmente ciega con revestimiento de aluminio.",
+      "Se fabrican puertas simples, dobles y portones de abrir de 3 hojas",
+      "Este producto se puede realizar a medida sin inconvenientes",
+      "ESTE PRODUCTO Y DISEÑOS SE TRABAJA TANTO EN LA LINEA HERRERO COMO EN LA LINEA MODENA DE ALTA PRESTACION."
+    ]
   },
   {
     "id": 7,
-    "name": "Aluminio 2",
-    "img": "/public-img/fotopuerta.jpg",
-    "category": "puertas",
-    "subCategory": "madera"
+    "title": "Nuevas puertas de aluminio",
+    "name": "Aluminio",
+    "img": "/public-img/puerta-aluminio-7.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Las puertas de aluminio se pueden fabricar en diferentes modelos y medidas, son libre mantenimiento y pueden elaborarse con o sin vidrio según elección del comprador. Su característica destacable es su pintura final epoxi, es decir que son libre mantenimiento y no se oxidan.",
+      "Puede ser color blanco, negro o anodizado natural.",
+      "Los modelos estándar son vidrio entero, medio vidrio, ¼ vidrio o totalmente ciega con revestimiento de aluminio.",
+      "Se fabrican puertas simples, dobles y portones de abrir de 3 hojas",
+      "Este producto se puede realizar a medida sin inconvenientes",
+      "ESTE PRODUCTO Y DISEÑOS SE TRABAJA TANTO EN LA LINEA HERRERO COMO EN LA LINEA MODENA DE ALTA PRESTACION."
+    ]
   },
   {
     "id": 8,
-    "name": "Vidrio Float",
-    "img": "/public-img/ventanal.jpg",
-    "category": "float",
-    "subCategory": "float"
+    "title": "Nuevas puertas de aluminio",
+    "name": "Aluminio",
+    "img": "/public-img/puerta-aluminio-8.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Las puertas de aluminio se pueden fabricar en diferentes modelos y medidas, son libre mantenimiento y pueden elaborarse con o sin vidrio según elección del comprador. Su característica destacable es su pintura final epoxi, es decir que son libre mantenimiento y no se oxidan.",
+      "Puede ser color blanco, negro o anodizado natural.",
+      "Los modelos estándar son vidrio entero, medio vidrio, ¼ vidrio o totalmente ciega con revestimiento de aluminio.",
+      "Se fabrican puertas simples, dobles y portones de abrir de 3 hojas",
+      "Este producto se puede realizar a medida sin inconvenientes",
+      "ESTE PRODUCTO Y DISEÑOS SE TRABAJA TANTO EN LA LINEA HERRERO COMO EN LA LINEA MODENA DE ALTA PRESTACION."
+    ]
   },
   {
     "id": 9,
-    "name": "Vidrio Dum",
-    "img": "/public-img/ventanal.jpg",
-    "category": "dum",
-    "subCategory": "dum"
+    "title": "Nuevas puertas de chapa Ochippinti",
+    "name": "Chapa",
+    "img": "/public-img/puerta-chapa-1.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Occhipinti Hnos., fábrica de aberturas metálicas, le ofrece una amplia gama de modelos de primera calidad, clásicos y modernos para todo tipo de proyecto. Nuestras puertas están realizadas acorde a cada tipo de necesidad, en variedad de medidas y adaptables a todos los sistemas de apertura.",
+      "Marco en chapa B.W.G Nº 18",
+      "Hoja en chapa B.W.G Nº 22",
+      "Inyectada con poliuretano expandido de alta densidad",
+      "Bisagras a munición",
+      "Cerradura de seguridad doble paleta",
+      "Con herrajes",
+      "Opcional barral y vistas de acero inoxidable"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Nuevas puertas de chapa Ochippinti",
+    "name": "Chapa",
+    "img": "/public-img/puerta-chapa-2.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Occhipinti Hnos., fábrica de aberturas metálicas, le ofrece una amplia gama de modelos de primera calidad, clásicos y modernos para todo tipo de proyecto. Nuestras puertas están realizadas acorde a cada tipo de necesidad, en variedad de medidas y adaptables a todos los sistemas de apertura.",
+      "Marco en chapa B.W.G Nº 18",
+      "Hoja en chapa B.W.G Nº 22",
+      "Inyectada con poliuretano expandido de alta densidad",
+      "Bisagras a munición",
+      "Cerradura de seguridad doble paleta",
+      "Con herrajes",
+      "Opcional barral y vistas de acero inoxidable"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Nuevas puertas de chapa Ochippinti",
+    "name": "Chapa",
+    "img": "/public-img/puerta-chapa-3.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Occhipinti Hnos., fábrica de aberturas metálicas, le ofrece una amplia gama de modelos de primera calidad, clásicos y modernos para todo tipo de proyecto. Nuestras puertas están realizadas acorde a cada tipo de necesidad, en variedad de medidas y adaptables a todos los sistemas de apertura.",
+      "Marco en chapa B.W.G Nº 18",
+      "Hoja en chapa B.W.G Nº 22",
+      "Inyectada con poliuretano expandido de alta densidad",
+      "Bisagras a munición",
+      "Cerradura de seguridad doble paleta",
+      "Con herrajes",
+      "Opcional barral y vistas de acero inoxidable"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Nuevas puertas de chapa Ochippinti",
+    "name": "Chapa",
+    "img": "/public-img/puerta-chapa-4.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Occhipinti Hnos., fábrica de aberturas metálicas, le ofrece una amplia gama de modelos de primera calidad, clásicos y modernos para todo tipo de proyecto. Nuestras puertas están realizadas acorde a cada tipo de necesidad, en variedad de medidas y adaptables a todos los sistemas de apertura.",
+      "Marco en chapa B.W.G Nº 18",
+      "Hoja en chapa B.W.G Nº 22",
+      "Inyectada con poliuretano expandido de alta densidad",
+      "Bisagras a munición",
+      "Cerradura de seguridad doble paleta",
+      "Con herrajes",
+      "Opcional barral y vistas de acero inoxidable"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Nuevas puertas de chapa Ochippinti",
+    "name": "Chapa",
+    "img": "/public-img/puerta-chapa-5.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Occhipinti Hnos., fábrica de aberturas metálicas, le ofrece una amplia gama de modelos de primera calidad, clásicos y modernos para todo tipo de proyecto. Nuestras puertas están realizadas acorde a cada tipo de necesidad, en variedad de medidas y adaptables a todos los sistemas de apertura.",
+      "Marco en chapa B.W.G Nº 18",
+      "Hoja en chapa B.W.G Nº 22",
+      "Inyectada con poliuretano expandido de alta densidad",
+      "Bisagras a munición",
+      "Cerradura de seguridad doble paleta",
+      "Con herrajes",
+      "Opcional barral y vistas de acero inoxidable"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Nuevas puertas de chapa Ochippinti",
+    "name": "Chapa",
+    "img": "/public-img/puerta-chapa-6.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Occhipinti Hnos., fábrica de aberturas metálicas, le ofrece una amplia gama de modelos de primera calidad, clásicos y modernos para todo tipo de proyecto. Nuestras puertas están realizadas acorde a cada tipo de necesidad, en variedad de medidas y adaptables a todos los sistemas de apertura.",
+      "Marco en chapa B.W.G Nº 18",
+      "Hoja en chapa B.W.G Nº 22",
+      "Inyectada con poliuretano expandido de alta densidad",
+      "Bisagras a munición",
+      "Cerradura de seguridad doble paleta",
+      "Con herrajes",
+      "Opcional barral y vistas de acero inoxidable"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Pavir | Foliadas simil madera",
+    "name": "Pavir | Foliadas",
+    "img": "/public-img/puerta-pavir-1.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Nuevas Puertas PAVIR de acero foliadas",
+      "Máxima seguridad: Hojas de 2 ́ ́ espesor + Triple Contacto: sistema antibarreta único en el mercado!",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva acero galvanizado con cobertura de zinc",
+      "Terminación superior: modelos foliadas con revestimiento de lámina foliada de PVC simil madera",
+      "Hermeticidad: únicas puertas con burlete instalado",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Cilindro Europerfil con llave computada"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Pavir | Foliadas simil madera",
+    "name": "Pavir | Foliadas",
+    "img": "/public-img/puerta-pavir-2.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Nuevas Puertas PAVIR de acero foliadas",
+      "Máxima seguridad: Hojas de 2 ́ ́ espesor + Triple Contacto: sistema antibarreta único en el mercado!",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva acero galvanizado con cobertura de zinc",
+      "Terminación superior: modelos foliadas con revestimiento de lámina foliada de PVC simil madera",
+      "Hermeticidad: únicas puertas con burlete instalado",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Cilindro Europerfil con llave computada"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Pavir | Foliadas simil madera",
+    "name": "Pavir | Foliadas",
+    "img": "/public-img/puerta-pavir-3.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Nuevas Puertas PAVIR de acero foliadas",
+      "Máxima seguridad: Hojas de 2 ́ ́ espesor + Triple Contacto: sistema antibarreta único en el mercado!",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva acero galvanizado con cobertura de zinc",
+      "Terminación superior: modelos foliadas con revestimiento de lámina foliada de PVC simil madera",
+      "Hermeticidad: únicas puertas con burlete instalado",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Cilindro Europerfil con llave computada"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Pavir | Foliadas simil madera",
+    "name": "Pavir | Foliadas",
+    "img": "/public-img/puerta-pavir-4.jpg",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Nuevas Puertas PAVIR de acero foliadas",
+      "Máxima seguridad: Hojas de 2 ́ ́ espesor + Triple Contacto: sistema antibarreta único en el mercado!",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva acero galvanizado con cobertura de zinc",
+      "Terminación superior: modelos foliadas con revestimiento de lámina foliada de PVC simil madera",
+      "Hermeticidad: únicas puertas con burlete instalado",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Cilindro Europerfil con llave computada"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Pavir | Foliadas simil madera",
+    "name": "Pavir | Foliadas",
+    "img": "/public-img/puerta-pavir-5.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Nuevas Puertas PAVIR de acero foliadas",
+      "Máxima seguridad: Hojas de 2 ́ ́ espesor + Triple Contacto: sistema antibarreta único en el mercado!",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva acero galvanizado con cobertura de zinc",
+      "Terminación superior: modelos foliadas con revestimiento de lámina foliada de PVC simil madera",
+      "Hermeticidad: únicas puertas con burlete instalado",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Cilindro Europerfil con llave computada"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Linea Pavir",
+    "name": "Pavir",
+    "img": "/public-img/puerta-pavir-6.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Extra protección de anticorrosión con nanotecnología",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva: acero galvanizado con cobertura de zinc.",
+      "Terminación superior: pintura en polvo poliéster horneada a 220",
+      "Hermeticidad: únicas puertas con burlete instalado",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Diseño exclusivo: zócalo antioxidante. Protección y sellado en la base.",
+      "Nueva bisagra exclusiva: diseño de sistema único en el mercado. DOBLE APOYO con 4 puntos de soldadura.",
+      "-",
+      "Consultar por otros colores "
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Linea Pavir",
+    "name": "Pavir",
+    "img": "/public-img/puerta-pavir-7.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Extra protección de anticorrosión con nanotecnología",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva: acero galvanizado con cobertura de zinc.",
+      "Terminación superior: pintura en polvo poliéster horneada a 220",
+      "Hermeticidad: únicas puertas con burlete instalado",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Diseño exclusivo: zócalo antioxidante. Protección y sellado en la base.",
+      "Nueva bisagra exclusiva: diseño de sistema único en el mercado. DOBLE APOYO con 4 puntos de soldadura.",
+      "-",
+      "Consultar por otros colores "
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Linea Pavir",
+    "name": "Pavir",
+    "img": "/public-img/puerta-pavir-8.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Extra protección de anticorrosión con nanotecnología",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva: acero galvanizado con cobertura de zinc.",
+      "Terminación superior: pintura en polvo poliéster horneada a 220",
+      "Hermeticidad: únicas puertas con burlete instalado",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Diseño exclusivo: zócalo antioxidante. Protección y sellado en la base.",
+      "Nueva bisagra exclusiva: diseño de sistema único en el mercado. DOBLE APOYO con 4 puntos de soldadura.",
+      "-",
+      "Consultar por otros colores "
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Linea Pavir",
+    "name": "Pavir",
+    "img": "/public-img/puerta-pavir-9.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Extra protección de anticorrosión con nanotecnología",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva: acero galvanizado con cobertura de zinc.",
+      "Terminación superior: pintura en polvo poliéster horneada a 220",
+      "Hermeticidad: únicas puertas con burlete instalado",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Diseño exclusivo: zócalo antioxidante. Protección y sellado en la base.",
+      "Nueva bisagra exclusiva: diseño de sistema único en el mercado. DOBLE APOYO con 4 puntos de soldadura.",
+      "-",
+      "Consultar por otros colores "
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Linea Pavir",
+    "name": "Pavir",
+    "img": "/public-img/puerta-pavir-10.jpg",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Extra protección de anticorrosión con nanotecnología",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva: acero galvanizado con cobertura de zinc.",
+      "Terminación superior: pintura en polvo poliéster horneada a 220",
+      "Hermeticidad: únicas puertas con burlete instalado",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Diseño exclusivo: zócalo antioxidante. Protección y sellado en la base.",
+      "Nueva bisagra exclusiva: diseño de sistema único en el mercado. DOBLE APOYO con 4 puntos de soldadura.",
+      "-",
+      "Consultar por otros colores "
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Linea Pavir",
+    "name": "Pavir",
+    "img": "/public-img/puerta-pavir-11.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Extra protección de anticorrosión con nanotecnología",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva: acero galvanizado con cobertura de zinc.",
+      "Terminación superior: pintura en polvo poliéster horneada a 220",
+      "Hermeticidad: únicas puertas con burlete instalado",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Diseño exclusivo: zócalo antioxidante. Protección y sellado en la base.",
+      "Nueva bisagra exclusiva: diseño de sistema único en el mercado. DOBLE APOYO con 4 puntos de soldadura.",
+      "-",
+      "Consultar por otros colores "
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Pavir | Multipunto Imperia",
+    "name": "Multipunto SEG",
+    "img": "/public-img/puerta-pavir-12.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "- Puerta de Máxima seguridad: con Sistema antibarreta (Hojas de 2 ́ ́ espesor (47 mm.) + -Triple Contacto) + Cerradura Multipunto",
+      "Cerradura con 9 pernos de seguridad: dos cerrojos de 3 pernos cada uno y una cerradura de seguridad de 3 pernos, con cierre comandado por una sola llave. Cilindro Europerfil y llave computada.",
+      "Extra protección de anticorrosión con nanotecnología",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva acero galvanizado con cobertura de zinc.",
+      "Terminación superior: pintura en polvo poliéster horneada a 220°",
+      "Hermeticidad: únicas puertas con burlete instalado",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Consultar por otra gamas de colores"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Pavir | Pivotante",
+    "name": "Pivotante",
+    "img": "/public-img/puerta-pavir-13.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Nuevas Puertas PAVIR de acero pivotantes",
+      "Únicas en el mercado",
+      "Bisagra en estructura interna que permite una apertura de hoja mayor a 180",
+      "Máxima seguridad: Hojas de 2 ́ ́ espesor + Triple Contacto",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva acero galvanizado con cobertura de zinc",
+      "Terminación superior: con revestimiento de lámina foliada de PVC simil madera",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Cilindro Europerfil con llave computada",
+      "Consulta por otro modelo y colores "
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Pavir | Pivotante",
+    "name": "Pivotante",
+    "img": "/public-img/puerta-pavir-14.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Nuevas Puertas PAVIR de acero pivotantes",
+      "Únicas en el mercado",
+      "Bisagra en estructura interna que permite una apertura de hoja mayor a 180",
+      "Máxima seguridad: Hojas de 2 ́ ́ espesor + Triple Contacto",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva acero galvanizado con cobertura de zinc",
+      "Terminación superior: con revestimiento de lámina foliada de PVC simil madera",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Cilindro Europerfil con llave computada",
+      "Consulta por otro modelo y colores "
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Pavir | Portadas",
+    "name": "Portadas",
+    "img": "/public-img/puerta-pavir-15.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Extra protección de anticorrosión con nanotecnología",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva: acero galvanizado con cobertura de zinc",
+      "Terminación superior: pintura en polvo poliéster horneada a 220°",
+      "Hermeticidad: únicas puertas con burlete instalado",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Diseño exclusivo: zócalo antioxidante. Protección y sellado en la base",
+      "Nueva bisagra exclusiva: diseño de sistema único en el mercado. DOBLE APOYO con 4 puntos de soldadura.",
+      "Consultar por colores y modelos "
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Pavir | Portadas",
+    "name": "Portadas",
+    "img": "/public-img/puerta-pavir-16.png",
+    "alt": "Puerta de exterior",
+    "category": "exterior",
+    "description": [
+      "Extra protección de anticorrosión con nanotecnología",
+      "Aislación termoacústica: con Poliuretano de alta adherencia expandido al 100%",
+      "Protección anticorrosiva: acero galvanizado con cobertura de zinc",
+      "Terminación superior: pintura en polvo poliéster horneada a 220°",
+      "Hermeticidad: únicas puertas con burlete instalado",
+      "Libre mantenimiento",
+      "Resistente al agua y a los rayos UV",
+      "Diseño exclusivo: zócalo antioxidante. Protección y sellado en la base",
+      "Nueva bisagra exclusiva: diseño de sistema único en el mercado. DOBLE APOYO con 4 puntos de soldadura.",
+      "Consultar por colores y modelos "
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Placas | Linea Wood Touch",
+    "name": "Placas",
+    "img": "/public-img/puerta-placa-1.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA.",
+      "La cual cuenta con una amplia gamas de colores y calidades lo mejor en durabilidad y estetica en el confort de tu hogar. ",
+      "Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja.",
+      "Puede contar con marco de chapa 18° o de Pino foliado con contramarcos regulables que mejoran su estetica. ",
+      "Con o sin bisagras de acero inoxidable y cerradura tradicional. ",
+      "Su hoja se encuentra foliada en MDF de 5,5 MM de espesor.",
+      "Consultar los colores que se estan trabajando"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Placas | Linea Wood Touch",
+    "name": "Placas",
+    "img": "/public-img/puerta-placa-2.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA.",
+      "La cual cuenta con una amplia gamas de colores y calidades lo mejor en durabilidad y estetica en el confort de tu hogar. ",
+      "Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja.",
+      "Puede contar con marco de chapa 18° o de Pino foliado con contramarcos regulables que mejoran su estetica. ",
+      "Con o sin bisagras de acero inoxidable y cerradura tradicional. ",
+      "Su hoja se encuentra foliada en MDF de 5,5 MM de espesor.",
+      "Consultar los colores que se estan trabajando"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Placas | Linea Wood Touch",
+    "name": "Placas",
+    "img": "/public-img/puerta-placa-3.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA.",
+      "La cual cuenta con una amplia gamas de colores y calidades lo mejor en durabilidad y estetica en el confort de tu hogar. ",
+      "Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja.",
+      "Puede contar con marco de chapa 18° o de Pino foliado con contramarcos regulables que mejoran su estetica. ",
+      "Con o sin bisagras de acero inoxidable y cerradura tradicional. ",
+      "Su hoja se encuentra foliada en MDF de 5,5 MM de espesor.",
+      "Consultar los colores que se estan trabajando"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Placas | Linea Wood Touch",
+    "name": "Placas",
+    "img": "/public-img/puerta-placa-4.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA.",
+      "La cual cuenta con una amplia gamas de colores y calidades lo mejor en durabilidad y estetica en el confort de tu hogar. ",
+      "Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja.",
+      "Puede contar con marco de chapa 18° o de Pino foliado con contramarcos regulables que mejoran su estetica. ",
+      "Con o sin bisagras de acero inoxidable y cerradura tradicional. ",
+      "Su hoja se encuentra foliada en MDF de 5,5 MM de espesor.",
+      "Consultar los colores que se estan trabajando"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Placas | Linea Wood Touch",
+    "name": "Placas",
+    "img": "/public-img/puerta-placa-5.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA.",
+      "La cual cuenta con una amplia gamas de colores y calidades lo mejor en durabilidad y estetica en el confort de tu hogar. ",
+      "Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja.",
+      "Puede contar con marco de chapa 18° o de Pino foliado con contramarcos regulables que mejoran su estetica. ",
+      "Con o sin bisagras de acero inoxidable y cerradura tradicional. ",
+      "Su hoja se encuentra foliada en MDF de 5,5 MM de espesor.",
+      "Consultar los colores que se estan trabajando"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Placas | Linea Wood Touch",
+    "name": "Placas",
+    "img": "/public-img/puerta-placa-6.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA.",
+      "La cual cuenta con una amplia gamas de colores y calidades lo mejor en durabilidad y estetica en el confort de tu hogar. ",
+      "Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja.",
+      "Puede contar con marco de chapa 18° o de Pino foliado con contramarcos regulables que mejoran su estetica. ",
+      "Con o sin bisagras de acero inoxidable y cerradura tradicional. ",
+      "Su hoja se encuentra foliada en MDF de 5,5 MM de espesor.",
+      "Consultar los colores que se estan trabajando"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Placas | Tradicionales",
+    "name": "Placas",
+    "img": "/public-img/puerta-placa-7.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja y cubiertas por un enchapado de excelente calidad que van variando en su espesor. ",
+      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
+      "Trabajamos con las mejores marcas del mercado, Potenza y Caia Placas",
+      "Marco de madera, marco de chapa de 18 y 22.",
+      "Tabiques 10, 12 y 15.",
+      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura.",
+      "Enchapadas en cedro, cedro misionero, wengue, pino.",
+      "En tipo texturadas trabajamos la línea Masonite con su diferentes modelos y molduras.",
+      "MDF puede ser en 3mm, 5.5mm, 9mm vienen lisas y molduradas.",
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA. "
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Placas | Tradicionales",
+    "name": "Placas",
+    "img": "/public-img/puerta-placa-8.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja y cubiertas por un enchapado de excelente calidad que van variando en su espesor. ",
+      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
+      "Trabajamos con las mejores marcas del mercado, Potenza y Caia Placas",
+      "Marco de madera, marco de chapa de 18 y 22.",
+      "Tabiques 10, 12 y 15.",
+      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura.",
+      "Enchapadas en cedro, cedro misionero, wengue, pino.",
+      "En tipo texturadas trabajamos la línea Masonite con su diferentes modelos y molduras.",
+      "MDF puede ser en 3mm, 5.5mm, 9mm vienen lisas y molduradas.",
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA. "
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Placas | Tradicionales",
+    "name": "Placas",
+    "img": "/public-img/puerta-placa-9.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja y cubiertas por un enchapado de excelente calidad que van variando en su espesor. ",
+      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
+      "Trabajamos con las mejores marcas del mercado, Potenza y Caia Placas",
+      "Marco de madera, marco de chapa de 18 y 22.",
+      "Tabiques 10, 12 y 15.",
+      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura.",
+      "Enchapadas en cedro, cedro misionero, wengue, pino.",
+      "En tipo texturadas trabajamos la línea Masonite con su diferentes modelos y molduras.",
+      "MDF puede ser en 3mm, 5.5mm, 9mm vienen lisas y molduradas.",
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA. "
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Placas | Tradicionales",
+    "name": "Placas",
+    "img": "/public-img/puerta-placa-10.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja y cubiertas por un enchapado de excelente calidad que van variando en su espesor. ",
+      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
+      "Trabajamos con las mejores marcas del mercado, Potenza y Caia Placas",
+      "Marco de madera, marco de chapa de 18 y 22.",
+      "Tabiques 10, 12 y 15.",
+      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura.",
+      "Enchapadas en cedro, cedro misionero, wengue, pino.",
+      "En tipo texturadas trabajamos la línea Masonite con su diferentes modelos y molduras.",
+      "MDF puede ser en 3mm, 5.5mm, 9mm vienen lisas y molduradas.",
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA. "
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Placas | Tradicionales",
+    "name": "Placas",
+    "img": "/public-img/puerta-placa-11.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja y cubiertas por un enchapado de excelente calidad que van variando en su espesor. ",
+      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
+      "Trabajamos con las mejores marcas del mercado, Potenza y Caia Placas",
+      "Marco de madera, marco de chapa de 18 y 22.",
+      "Tabiques 10, 12 y 15.",
+      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura.",
+      "Enchapadas en cedro, cedro misionero, wengue, pino.",
+      "En tipo texturadas trabajamos la línea Masonite con su diferentes modelos y molduras.",
+      "MDF puede ser en 3mm, 5.5mm, 9mm vienen lisas y molduradas.",
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA. "
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Corredizas de Embutir",
+    "name": "Corredizas",
+    "img": "/public-img/puerta-corrediza-1.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja y cubiertas por un enchapado de excelente calidad que van variando en su espesor. ",
+      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
+      "Trabajamos con las mejores marcas del mercado, Potenza y Caia Placas",
+      "Marco de madera, marco de chapa de 18 y 22.",
+      "Tabiques 10, 12 y 15.",
+      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura.",
+      "Enchapadas en cedro, cedro misionero, wengue, pino.",
+      "En tipo texturadas trabajamos la línea Masonite con su diferentes modelos y molduras.",
+      "MDF puede ser en 3mm, 5.5mm, 9mm vienen lisas y molduradas.",
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA. "
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Corredizas de Embutir",
+    "name": "Corredizas",
+    "img": "/public-img/puerta-corrediza-2.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja y cubiertas por un enchapado de excelente calidad que van variando en su espesor. ",
+      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
+      "Trabajamos con las mejores marcas del mercado, Potenza y Caia Placas",
+      "Marco de madera, marco de chapa de 18 y 22.",
+      "Tabiques 10, 12 y 15.",
+      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura.",
+      "Enchapadas en cedro, cedro misionero, wengue, pino.",
+      "En tipo texturadas trabajamos la línea Masonite con su diferentes modelos y molduras.",
+      "MDF puede ser en 3mm, 5.5mm, 9mm vienen lisas y molduradas.",
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA. "
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Corredizas de Embutir",
+    "name": "Corredizas",
+    "img": "/public-img/puerta-corrediza-3.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja y cubiertas por un enchapado de excelente calidad que van variando en su espesor. ",
+      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
+      "Trabajamos con las mejores marcas del mercado, Potenza y Caia Placas",
+      "Marco de madera, marco de chapa de 18 y 22.",
+      "Tabiques 10, 12 y 15.",
+      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura.",
+      "Enchapadas en cedro, cedro misionero, wengue, pino.",
+      "En tipo texturadas trabajamos la línea Masonite con su diferentes modelos y molduras.",
+      "MDF puede ser en 3mm, 5.5mm, 9mm vienen lisas y molduradas.",
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA. "
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Corredizas de Embutir",
+    "name": "Corredizas",
+    "img": "/public-img/puerta-corrediza-4.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja y cubiertas por un enchapado de excelente calidad que van variando en su espesor. ",
+      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
+      "Trabajamos con las mejores marcas del mercado, Potenza y Caia Placas",
+      "Marco de madera, marco de chapa de 18 y 22.",
+      "Tabiques 10, 12 y 15.",
+      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura.",
+      "Enchapadas en cedro, cedro misionero, wengue, pino.",
+      "En tipo texturadas trabajamos la línea Masonite con su diferentes modelos y molduras.",
+      "MDF puede ser en 3mm, 5.5mm, 9mm vienen lisas y molduradas.",
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA. "
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Corredizas de Embutir",
+    "name": "Corredizas",
+    "img": "/public-img/puerta-corrediza-5.png",
+    "alt": "Puerta de interior",
+    "category": "interior",
+    "description": [
+      "La mejor calidad y estética hacen que nuestras puertas placas y corredizas cumplan con las características que nuestros clientes necesitan. Están compuestas por un bastidor de pino, material celulosico en forma de panal de abeja y cubiertas por un enchapado de excelente calidad que van variando en su espesor. ",
+      "Pueden ser enchapadas en cedro, MDF, texturadas o melamina y las terminaciones pueden ser para pintar, barnizar o libre mantenimiento.",
+      "Trabajamos con las mejores marcas del mercado, Potenza y Caia Placas",
+      "Marco de madera, marco de chapa de 18 y 22.",
+      "Tabiques 10, 12 y 15.",
+      "Medidas de paso: 0.60, 0.70, 0.80 y 0.90 por 2.00mts de altura.",
+      "Enchapadas en cedro, cedro misionero, wengue, pino.",
+      "En tipo texturadas trabajamos la línea Masonite con su diferentes modelos y molduras.",
+      "MDF puede ser en 3mm, 5.5mm, 9mm vienen lisas y molduradas.",
+      "En foliadas simil madera tenemos la línea 'WOOD TOUCH' de la marca POTENZA, una de las metalurgicas mas prestigiosas de ARGENTINA. "
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Porton | Inyectado",
+    "name": "Porton | Inyectado",
+    "img": "/public-img/porton-1.png",
+    "alt": "Porton",
+    "category": "chapa",
+    "description": [
+      "PORTONES DOBLE CHAPA INYECTADA",
+      "Occhipinti Hnos., fábrica de aberturas metálicas, esta ofrece una amplia gama de modelos de primera calidad, clásicos y modernos para todo tipo de proyecto. Sus portones están realizados acorde a cada tipo de necesidad, en variedad de medidas y adaptables a todos los sistemas de apertura (Levadizos / Automatizados y de Abrir). Los invitamos a ver las distintas secciones para que pueda apreciar nuestros modelos y diseños.",
+      "Portones en doble chapa inyectada, con poliuretano 100% expandido"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Porton | Levadizo",
+    "name": "Porton | Levadizo",
+    "img": "/public-img/porton-2.png",
+    "alt": "Porton",
+    "category": "chapa",
+    "description": [
+      "PORTONES DOBLE CHAPA INYECTADA",
+      "Occhipinti Hnos., fábrica de aberturas metálicas, esta ofrece una amplia gama de modelos de primera calidad, clásicos y modernos para todo tipo de proyecto. Sus portones están realizados acorde a cada tipo de necesidad, en variedad de medidas y adaptables a todos los sistemas de apertura (Levadizos / Automatizados y de Abrir). Los invitamos a ver las distintas secciones para que pueda apreciar nuestros modelos y diseños.",
+      "Portones en doble chapa inyectada, con poliuretano 100% expandido"
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Porton | Levadizo Pesado",
+    "name": "Porton | Levadizo Pesado",
+    "img": "/public-img/porton-3.png",
+    "alt": "Porton",
+    "category": "chapa",
+    "description": [
+      "PORTONES DOBLE CHAPA INYECTADA",
+      "Occhipinti Hnos., fábrica de aberturas metálicas, esta ofrece una amplia gama de modelos de primera calidad, clásicos y modernos para todo tipo de proyecto. Sus portones están realizados acorde a cada tipo de necesidad, en variedad de medidas y adaptables a todos los sistemas de apertura (Levadizos / Automatizados y de Abrir). Los invitamos a ver las distintas secciones para que pueda apreciar nuestros modelos y diseños.",
+      "Portones en doble chapa inyectada, con poliuretano 100% expandido"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Aluminio | A30 New",
+    "name": "Aluminio | A30 New",
+    "img": "/public-img/aluminio-a30-1.png",
+    "alt": "Puerta Aluminio",
+    "category": "a30",
+    "description": [
+      "Al igual que la linea MODENA Es un Sistema de Carpintería de gran prestigio en el mercado. utilizado en las obras más emblemáticas debido a su diseño y excelente performance.",
+      "El estilo y elegancia de sus líneas redondeadas, sus amplias posibilidades constructivas y la variedad de tipologías, le ofrecen al arquitecto una herramienta de alta prestación en la realización de los proyectos. También y/o para fabricación de medidas fuera de las estándares, donde se requiera una estructura fuerte para soportar mucho peso producido por vidrios de gran tamaño.",
+      "Se puede utilizar vidrio simple o Doble Vidriado Hermético (DVH), en las corredizas de aplicación y en las batientes con contravidrio de borde recto o curvo. La fabricación de las aberturas se realiza con punzonadoras neumáticas con mecanizados de alta precisión.",
+      "Resiste el paso del tiempo, sus perfiles no requieren ningún tipo de mantenimiento y admiten tratamiento superficial como el pintado o anodizado.",
+      "A30 New sólo admite accesorios de alta calidad, lo cual garantiza un óptimo funcionamiento de las aberturas en su uso cotidiano.",
+      "TIPOLOGIAS:",
+      " VENTANA CORREDIZA BALCON",
+      " VENTANA CORREDIZA",
+      " OTRAS TIPOLOGIAS CONSULTAR"
+    ]
+  },
+  {
+    "id": 51,
+    "title": "Aluminio | Herrero | Corrediza",
+    "name": "Aluminio",
+    "img": "/public-img/aluminio-herrero-1.png",
+    "alt": "Puerta Aluminio",
+    "category": "herrero",
+    "description": [
+      "Es un Sistema de Carpintería liviano, diseñado para satisfacer las necesidades del segmento básico de aberturas, para viviendas unifamiliares con óptima prestación.Las hojas corredizas admiten vidrio simple. El sistema de hermeticidad es de doble contacto con felpas.",
+      "TIPOLOGIAS:",
+      " VENTANA CORREDIZA BALCON",
+      " VENTANA CORREDIZA",
+      " PUERTAS ",
+      " PAÑO FIJO",
+      " RAJA DE BRIR",
+      " BANDEROLA",
+      " BRAZO DE EMPUJE"
+    ]
+  },
+  {
+    "id": 52,
+    "title": "Aluminio | Herrero | Ventana Balcon",
+    "name": "Aluminio",
+    "img": "/public-img/aluminio-herrero-2.png",
+    "alt": "Puerta Aluminio",
+    "category": "herrero",
+    "description": [
+      "Es un Sistema de Carpintería liviano, diseñado para satisfacer las necesidades del segmento básico de aberturas, para viviendas unifamiliares con óptima prestación.Las hojas corredizas admiten vidrio simple. El sistema de hermeticidad es de doble contacto con felpas.",
+      "TIPOLOGIAS:",
+      " VENTANA CORREDIZA BALCON",
+      " VENTANA CORREDIZA",
+      " PUERTAS ",
+      " PAÑO FIJO",
+      " RAJA DE BRIR",
+      " BANDEROLA",
+      " BRAZO DE EMPUJE"
+    ]
+  },
+  {
+    "id": 53,
+    "title": "Aluminio | Herrero | Ventana Corrediza",
+    "name": "Aluminio",
+    "img": "/public-img/aluminio-herrero-3.png",
+    "alt": "Puerta Aluminio",
+    "category": "herrero",
+    "description": [
+      "Es un Sistema de Carpintería liviano, diseñado para satisfacer las necesidades del segmento básico de aberturas, para viviendas unifamiliares con óptima prestación.Las hojas corredizas admiten vidrio simple. El sistema de hermeticidad es de doble contacto con felpas.",
+      "TIPOLOGIAS:",
+      " VENTANA CORREDIZA BALCON",
+      " VENTANA CORREDIZA",
+      " PUERTAS ",
+      " PAÑO FIJO",
+      " RAJA DE BRIR",
+      " BANDEROLA",
+      " BRAZO DE EMPUJE"
+    ]
+  },
+  {
+    "id": 54,
+    "title": "Aluminio | Herrero | Perfil de Abrir",
+    "name": "Aluminio",
+    "img": "/public-img/aluminio-herrero-4.png",
+    "alt": "Puerta Aluminio",
+    "category": "herrero",
+    "description": [
+      "Es un Sistema de Carpintería liviano, diseñado para satisfacer las necesidades del segmento básico de aberturas, para viviendas unifamiliares con óptima prestación.Las hojas corredizas admiten vidrio simple. El sistema de hermeticidad es de doble contacto con felpas.",
+      "TIPOLOGIAS:",
+      " VENTANA CORREDIZA BALCON",
+      " VENTANA CORREDIZA",
+      " PUERTAS ",
+      " PAÑO FIJO",
+      " RAJA DE BRIR",
+      " BANDEROLA",
+      " BRAZO DE EMPUJE"
+    ]
+  },
+  {
+    "id": 55,
+    "title": "Aluminio | Hetonda | Corrediza",
+    "name": "Aluminio",
+    "img": "/public-img/aluminio-hetonda-1.png",
+    "alt": "Puerta Aluminio",
+    "category": "hetonda",
+    "description": [
+      "Se trata de una ventana herrero corrediza mejorada. En la cual se trabaja el mismo marco de la herrero tradicional, a diferencia en este caso las hojas traen un perfil lateral más ancho de la linea ROTONDA de alta prestacion. Cuenta con un cierre moderno automatico o manual dependiendo de su tipologia los cuales le brindan una mejora en la hermeticidad del producto. Presenta mejoras en los rodamientos con diferencia de calidad en los mismos.",
+      "TIPOLOGIAS: ",
+      " VENTANA CORREDIZA BALCON",
+      " VENTANA CORREDIZA"
+    ]
+  },
+  {
+    "id": 56,
+    "title": "Aluminio | Hetonda | Corrediza",
+    "name": "Aluminio",
+    "img": "/public-img/aluminio-hetonda-2.png",
+    "alt": "Puerta Aluminio",
+    "category": "hetonda",
+    "description": [
+      "Se trata de una ventana herrero corrediza mejorada. En la cual se trabaja el mismo marco de la herrero tradicional, a diferencia en este caso las hojas traen un perfil lateral más ancho de la linea HETONDA de alta prestacion. Cuenta con un cierre moderno automatico o manual dependiendo de su tipologia los cuales le brindan una mejora en la hermeticidad del producto. Presenta mejoras en los rodamientos con diferencia de calidad en los mismos.",
+      "TIPOLOGIAS: ",
+      " VENTANA CORREDIZA BALCON",
+      " VENTANA CORREDIZA"
+    ]
+  },
+  {
+    "id": 57,
+    "title": "Aluminio | Modena | Perfileria de Abrir",
+    "name": "Aluminio",
+    "img": "/public-img/aluminio-modena-1.png",
+    "alt": "Puerta Aluminio",
+    "category": "modena",
+    "description": [
+      "Cuando hablamos de la LINEA MODENA de aluminio, describimos el sistema de carpinteria mas popular y recomendado en nuestro rubro. El cual maneja una resistencia muy alta y peso ligero al ser aluminio siendo de una alta prestacion. Donde podemos trabajar vidrios de distintos espesores, DVH (Doble vidriado hermtico), Laminados, Floats, Esmerilados entre otros. ",
+      "Caracteristicas que hacen la diferencia:",
+      "Cierres laterales automaticos o manuales en la tipologia corrediza, de las mejores calidades del mercado. Los cuales le dan una mayor hermeticidad a la hora del cierre. ",
+      "Felpas perimetrales en sus hojas y marcos",
+      "En la tipologia de corredizas trabajamos caja de agua con desagote hacia su exterior, para mantener controlado y no sufrir filtraciones frente a las fuertes lluvias. ",
+      "Podemos acceder a colocar un premarco, previo a la colocacion definitiva del producto. El cual hace que los obreros coloquen ya en escuadra el marco que va a ser puesto despues y evita rayaduras provocadas por un mal amuramiento o exceso de material en el marco definitivo.",
+      "Contramarco o tapajuntas: Este es una vista perimetral del mismo color de aluminio, que hace a la estetica del producto, la cual se instala del lado interno.",
+      "Mosquiteros",
+      "TIPOLOGIAS:",
+      "VENTANA CORREDIZA BALCON",
+      "VENTANA CORREDIZA",
+      "PUERTAS ",
+      "PAÑO FIJO",
+      "RAJA DE BRIR",
+      "BANDEROLA",
+      "BRAZO DE EMPUJE",
+      "PROYECTANTE",
+      "OSCILOBATIENTE"
+    ]
+  },
+  {
+    "id": 58,
+    "title": "Aluminio | Modena | Perfileria Corrediza",
+    "name": "Aluminio",
+    "img": "/public-img/aluminio-modena-2.png",
+    "alt": "Puerta Aluminio",
+    "category": "modena",
+    "description": [
+      "Cuando hablamos de la LINEA MODENA de aluminio, describimos el sistema de carpinteria mas popular y recomendado en nuestro rubro. El cual maneja una resistencia muy alta y peso ligero al ser aluminio siendo de una alta prestacion. Donde podemos trabajar vidrios de distintos espesores, DVH (Doble vidriado hermtico), Laminados, Floats, Esmerilados entre otros. ",
+      "Caracteristicas que hacen la diferencia:",
+      "Cierres laterales automaticos o manuales en la tipologia corrediza, de las mejores calidades del mercado. Los cuales le dan una mayor hermeticidad a la hora del cierre. ",
+      "Felpas perimetrales en sus hojas y marcos",
+      "En la tipologia de corredizas trabajamos caja de agua con desagote hacia su exterior, para mantener controlado y no sufrir filtraciones frente a las fuertes lluvias. ",
+      "Podemos acceder a colocar un premarco, previo a la colocacion definitiva del producto. El cual hace que los obreros coloquen ya en escuadra el marco que va a ser puesto despues y evita rayaduras provocadas por un mal amuramiento o exceso de material en el marco definitivo.",
+      "Contramarco o tapajuntas: Este es una vista perimetral del mismo color de aluminio, que hace a la estetica del producto, la cual se instala del lado interno.",
+      "Mosquiteros",
+      "TIPOLOGIAS:",
+      "VENTANA CORREDIZA BALCON",
+      "VENTANA CORREDIZA",
+      "PUERTAS ",
+      "PAÑO FIJO",
+      "RAJA DE BRIR",
+      "BANDEROLA",
+      "BRAZO DE EMPUJE",
+      "PROYECTANTE",
+      "OSCILOBATIENTE"
+    ]
+  },
+  {
+    "id": 59,
+    "title": "Aluminio | Modena | Paño fijo",
+    "name": "Aluminio",
+    "img": "/public-img/aluminio-modena-3.png",
+    "alt": "Puerta Aluminio",
+    "category": "modena",
+    "description": [
+      "Cuando hablamos de la LINEA MODENA de aluminio, describimos el sistema de carpinteria mas popular y recomendado en nuestro rubro. El cual maneja una resistencia muy alta y peso ligero al ser aluminio siendo de una alta prestacion. Donde podemos trabajar vidrios de distintos espesores, DVH (Doble vidriado hermtico), Laminados, Floats, Esmerilados entre otros. ",
+      "Caracteristicas que hacen la diferencia:",
+      "Cierres laterales automaticos o manuales en la tipologia corrediza, de las mejores calidades del mercado. Los cuales le dan una mayor hermeticidad a la hora del cierre. ",
+      "Felpas perimetrales en sus hojas y marcos",
+      "En la tipologia de corredizas trabajamos caja de agua con desagote hacia su exterior, para mantener controlado y no sufrir filtraciones frente a las fuertes lluvias. ",
+      "Podemos acceder a colocar un premarco, previo a la colocacion definitiva del producto. El cual hace que los obreros coloquen ya en escuadra el marco que va a ser puesto despues y evita rayaduras provocadas por un mal amuramiento o exceso de material en el marco definitivo.",
+      "Contramarco o tapajuntas: Este es una vista perimetral del mismo color de aluminio, que hace a la estetica del producto, la cual se instala del lado interno.",
+      "Mosquiteros",
+      "TIPOLOGIAS:",
+      "VENTANA CORREDIZA BALCON",
+      "VENTANA CORREDIZA",
+      "PUERTAS ",
+      "PAÑO FIJO",
+      "RAJA DE BRIR",
+      "BANDEROLA",
+      "BRAZO DE EMPUJE",
+      "PROYECTANTE",
+      "OSCILOBATIENTE"
+    ]
+  },
+  {
+    "id": 60,
+    "title": "Aluminio | Modena | Corrediza",
+    "name": "Aluminio",
+    "img": "/public-img/aluminio-modena-4.png",
+    "alt": "Puerta Aluminio",
+    "category": "modena",
+    "description": [
+      "Cuando hablamos de la LINEA MODENA de aluminio, describimos el sistema de carpinteria mas popular y recomendado en nuestro rubro. El cual maneja una resistencia muy alta y peso ligero al ser aluminio siendo de una alta prestacion. Donde podemos trabajar vidrios de distintos espesores, DVH (Doble vidriado hermtico), Laminados, Floats, Esmerilados entre otros. ",
+      "Caracteristicas que hacen la diferencia:",
+      "Cierres laterales automaticos o manuales en la tipologia corrediza, de las mejores calidades del mercado. Los cuales le dan una mayor hermeticidad a la hora del cierre. ",
+      "Felpas perimetrales en sus hojas y marcos",
+      "En la tipologia de corredizas trabajamos caja de agua con desagote hacia su exterior, para mantener controlado y no sufrir filtraciones frente a las fuertes lluvias. ",
+      "Podemos acceder a colocar un premarco, previo a la colocacion definitiva del producto. El cual hace que los obreros coloquen ya en escuadra el marco que va a ser puesto despues y evita rayaduras provocadas por un mal amuramiento o exceso de material en el marco definitivo.",
+      "Contramarco o tapajuntas: Este es una vista perimetral del mismo color de aluminio, que hace a la estetica del producto, la cual se instala del lado interno.",
+      "Mosquiteros",
+      "TIPOLOGIAS:",
+      "VENTANA CORREDIZA BALCON",
+      "VENTANA CORREDIZA",
+      "PUERTAS ",
+      "PAÑO FIJO",
+      "RAJA DE BRIR",
+      "BANDEROLA",
+      "BRAZO DE EMPUJE",
+      "PROYECTANTE",
+      "OSCILOBATIENTE"
+    ]
+  },
+  {
+    "id": 61,
+    "title": "Aluminio | Modena",
+    "name": "Aluminio",
+    "img": "/public-img/aluminio-modena-5.png",
+    "alt": "Puerta Aluminio",
+    "category": "modena",
+    "description": [
+      "Cuando hablamos de la LINEA MODENA de aluminio, describimos el sistema de carpinteria mas popular y recomendado en nuestro rubro. El cual maneja una resistencia muy alta y peso ligero al ser aluminio siendo de una alta prestacion. Donde podemos trabajar vidrios de distintos espesores, DVH (Doble vidriado hermtico), Laminados, Floats, Esmerilados entre otros. ",
+      "Caracteristicas que hacen la diferencia:",
+      "Cierres laterales automaticos o manuales en la tipologia corrediza, de las mejores calidades del mercado. Los cuales le dan una mayor hermeticidad a la hora del cierre. ",
+      "Felpas perimetrales en sus hojas y marcos",
+      "En la tipologia de corredizas trabajamos caja de agua con desagote hacia su exterior, para mantener controlado y no sufrir filtraciones frente a las fuertes lluvias. ",
+      "Podemos acceder a colocar un premarco, previo a la colocacion definitiva del producto. El cual hace que los obreros coloquen ya en escuadra el marco que va a ser puesto despues y evita rayaduras provocadas por un mal amuramiento o exceso de material en el marco definitivo.",
+      "Contramarco o tapajuntas: Este es una vista perimetral del mismo color de aluminio, que hace a la estetica del producto, la cual se instala del lado interno.",
+      "Mosquiteros",
+      "TIPOLOGIAS:",
+      "VENTANA CORREDIZA BALCON",
+      "VENTANA CORREDIZA",
+      "PUERTAS ",
+      "PAÑO FIJO",
+      "RAJA DE BRIR",
+      "BANDEROLA",
+      "BRAZO DE EMPUJE",
+      "PROYECTANTE",
+      "OSCILOBATIENTE"
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Aluminio | Modena | Brazo de Empuje",
+    "name": "Aluminio",
+    "img": "/public-img/aluminio-modena-6.png",
+    "alt": "Puerta Aluminio",
+    "category": "modena",
+    "description": [
+      "Cuando hablamos de la LINEA MODENA de aluminio, describimos el sistema de carpinteria mas popular y recomendado en nuestro rubro. El cual maneja una resistencia muy alta y peso ligero al ser aluminio siendo de una alta prestacion. Donde podemos trabajar vidrios de distintos espesores, DVH (Doble vidriado hermtico), Laminados, Floats, Esmerilados entre otros. ",
+      "Caracteristicas que hacen la diferencia:",
+      "Cierres laterales automaticos o manuales en la tipologia corrediza, de las mejores calidades del mercado. Los cuales le dan una mayor hermeticidad a la hora del cierre. ",
+      "Felpas perimetrales en sus hojas y marcos",
+      "En la tipologia de corredizas trabajamos caja de agua con desagote hacia su exterior, para mantener controlado y no sufrir filtraciones frente a las fuertes lluvias. ",
+      "Podemos acceder a colocar un premarco, previo a la colocacion definitiva del producto. El cual hace que los obreros coloquen ya en escuadra el marco que va a ser puesto despues y evita rayaduras provocadas por un mal amuramiento o exceso de material en el marco definitivo.",
+      "Contramarco o tapajuntas: Este es una vista perimetral del mismo color de aluminio, que hace a la estetica del producto, la cual se instala del lado interno.",
+      "Mosquiteros",
+      "TIPOLOGIAS:",
+      "VENTANA CORREDIZA BALCON",
+      "VENTANA CORREDIZA",
+      "PUERTAS ",
+      "PAÑO FIJO",
+      "RAJA DE BRIR",
+      "BANDEROLA",
+      "BRAZO DE EMPUJE",
+      "PROYECTANTE",
+      "OSCILOBATIENTE"
+    ]
+  },
+  {
+    "id": 63,
+    "title": "Aluminio | Modena | Banderola",
+    "name": "Aluminio",
+    "img": "/public-img/aluminio-modena-7.png",
+    "alt": "Puerta Aluminio",
+    "category": "modena",
+    "description": [
+      "Cuando hablamos de la LINEA MODENA de aluminio, describimos el sistema de carpinteria mas popular y recomendado en nuestro rubro. El cual maneja una resistencia muy alta y peso ligero al ser aluminio siendo de una alta prestacion. Donde podemos trabajar vidrios de distintos espesores, DVH (Doble vidriado hermtico), Laminados, Floats, Esmerilados entre otros. ",
+      "Caracteristicas que hacen la diferencia:",
+      "Cierres laterales automaticos o manuales en la tipologia corrediza, de las mejores calidades del mercado. Los cuales le dan una mayor hermeticidad a la hora del cierre. ",
+      "Felpas perimetrales en sus hojas y marcos",
+      "En la tipologia de corredizas trabajamos caja de agua con desagote hacia su exterior, para mantener controlado y no sufrir filtraciones frente a las fuertes lluvias. ",
+      "Podemos acceder a colocar un premarco, previo a la colocacion definitiva del producto. El cual hace que los obreros coloquen ya en escuadra el marco que va a ser puesto despues y evita rayaduras provocadas por un mal amuramiento o exceso de material en el marco definitivo.",
+      "Contramarco o tapajuntas: Este es una vista perimetral del mismo color de aluminio, que hace a la estetica del producto, la cual se instala del lado interno.",
+      "Mosquiteros",
+      "TIPOLOGIAS:",
+      "VENTANA CORREDIZA BALCON",
+      "VENTANA CORREDIZA",
+      "PUERTAS ",
+      "PAÑO FIJO",
+      "RAJA DE BRIR",
+      "BANDEROLA",
+      "BRAZO DE EMPUJE",
+      "PROYECTANTE",
+      "OSCILOBATIENTE"
+    ]
+  },
+  {
+    "id": 64,
+    "title": "Vidrio | DVH",
+    "name": "Vidrio | DVH",
+    "img": "/public-img/vidrios-dvh-1.png",
+    "alt": "Vidrio",
+    "category": "dvh",
+    "description": [
+      "DVH (DOBLE VIDRIO HERMETICO)",
+      " Conservar por más tiempo la temperatura del hogar.",
+      " Mejorar la aislación acústica del ambiente.",
+      " Ahorrar hasta un 50% de energía de climatización.",
+      " Filtra el 99% de la dañina radiación UV: Responsable del deterior de muebles, alfombras, daños a las plantas, etc.",
+      "ASPECTOS BÁSICOS DE CONFORT PARA UNA VIVIENDA",
+      " Iluminación.",
+      " Aislamiento Térmico.",
+      " Aislamiento Acústico.",
+      " Economía de Uso.",
+      "El Doble vidriado Hermético (DVH) es la solución más adecuada y económica para reducir las pérdidas de calorías y/o frigorías a través de las ventanas, reduciendo de este modo los consumos de calefacción y refrigeración.",
+      "Al utilizar en su composición, DVH con vidrios laminados:",
+      " Elimina el riesgo de accidentes.",
+      " Reduce el ingreso de ruidos externos."
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Vidrio | Float | Fantasia",
+    "name": "Vidrio | Float",
+    "img": "/public-img/vidrios-float-1.png",
+    "alt": "Vidrio",
+    "category": "float",
+    "description": [
+      "El vidrio Float es un cristal plano transparente, libre de distorsión que tiene sus caras planas y paralelas con sus superficies brillantes, pulidas a fuego.",
+      "El vidrio Float es insustituible cuando se desea obtener una visión clara sin distorsión óptica y constituye la materia prima por excelencia para ser transformado en vidrio templado, laminado, fabricar espejo y manufacturar unidades de doble vidriado hermético. Como herramienta de diseño, sus posibilidades están sólo limitadas por la creatividad de los usuarios y por los criterios de seguridad, que siempre deben ser tenidos en cuenta en todas las aplicaciones del vidrio plano en arquitectura, vehículos y componentes de equipamiento.",
+      "Dentro podemos encontrar a los vidrios denominados 'Fantasias'. Los cuales permiten el paso de la luz solar pero no de la vision, tanto interna como externa. Estos se suelen utilizar mucho en los baños y partes del hogar donde querramos mantener mas privacidad. ",
+      "Los vidrios floats se pueden manejar en los espesores de 3, 4, 5, 6, 10mm. "
+    ]
+  },
+  {
+    "id": 66,
+    "title": "Vidrio | Float Inc",
+    "name": "Vidrio | Float",
+    "img": "/public-img/vidrios-float-2.png",
+    "alt": "Vidrio",
+    "category": "float",
+    "description": [
+      "El vidrio Float es un cristal plano transparente, libre de distorsión que tiene sus caras planas y paralelas con sus superficies brillantes, pulidas a fuego.",
+      "Este es insustituible cuando se desea obtener una visión clara sin distorsión óptica y constituye la materia prima por excelencia para ser transformado en vidrio templado, laminado, fabricar espejo y manufacturar unidades de doble vidriado hermético. Como herramienta de diseño, sus posibilidades están sólo limitadas por la creatividad de los usuarios y por los criterios de seguridad, que siempre deben ser tenidos en cuenta en todas las aplicaciones del vidrio plano en arquitectura, vehículos y componentes de equipamiento.",
+      "Dentro podemos encontrar a los vidrios denominados 'Fantasias'. Los cuales permiten el paso de la luz solar pero no de la vision, tanto interna como externa. Estos se suelen utilizar mucho en los baños y partes del hogar donde querramos mantener mas privacidad. ",
+      "Los vidrios floats se pueden manejar en los espesores de 3, 4, 5, 6, 10mm. "
+    ]
+  },
+  {
+    "id": 67,
+    "title": "Vidrio | Laminado Seguridad",
+    "name": "Vidrio | Laminado",
+    "img": "/public-img/vidrios-laminado-1.jpg",
+    "alt": "Vidrio",
+    "category": "laminados",
+    "description": ["vacio ?"]
+  },
+  {
+    "id": 68,
+    "title": "Vidrio | Laminado Seguridad",
+    "name": "Vidrio | Laminado",
+    "img": "/public-img/vidrios-laminado-2.png",
+    "alt": "Vidrio",
+    "category": "laminados",
+    "description": ["vacio ?"]
+  },
+  {
+    "id": 69,
+    "title": "Frentes de Placard",
+    "name": "Placard",
+    "img": "/public-img/placard-1.png",
+    "alt": "Placard",
+    "category": "placard",
+    "description": [
+      "Sistema moderno para frente de placares de 2 hojas corredizas, con ruedas inferiores y estabilizador superior con freno.",
+      "Características: hojas para placa de 18 mm de espesor, espejo de 4 o 6 mm más placa suplementaria. Zócalo alto para colocación de vidrio laminado con burletes.",
+      "Armado simple y rápido sin fresados. Funcionamiento suave y silencioso.",
+      "Contamos con una amplia gama de colores, tanto de melaminas foliadas en simil madera como de su respectiva perfileria de aluminio."
+    ]
+  },
+  {
+    "id": 70,
+    "title": "Frentes de Placard",
+    "name": "Placard",
+    "img": "/public-img/placard-2.png",
+    "alt": "Placard",
+    "category": "placard",
+    "description": [
+      "Sistema moderno para frente de placares de 2 hojas corredizas, con ruedas inferiores y estabilizador superior con freno.",
+      "Características: hojas para placa de 18 mm de espesor, espejo de 4 o 6 mm más placa suplementaria. Zócalo alto para colocación de vidrio laminado con burletes.",
+      "Armado simple y rápido sin fresados. Funcionamiento suave y silencioso.",
+      "Contamos con una amplia gama de colores, tanto de melaminas foliadas en simil madera como de su respectiva perfileria de aluminio."
+    ]
+  },
+  {
+    "id": 71,
+    "title": "Frentes de Placard",
+    "name": "Placard",
+    "img": "/public-img/placard-3.png",
+    "alt": "Placard",
+    "category": "placard",
+    "description": [
+      "Sistema moderno para frente de placares de 2 hojas corredizas, con ruedas inferiores y estabilizador superior con freno.",
+      "Características: hojas para placa de 18 mm de espesor, espejo de 4 o 6 mm más placa suplementaria. Zócalo alto para colocación de vidrio laminado con burletes.",
+      "Armado simple y rápido sin fresados. Funcionamiento suave y silencioso.",
+      "Contamos con una amplia gama de colores, tanto de melaminas foliadas en simil madera como de su respectiva perfileria de aluminio."
+    ]
   }
 ]

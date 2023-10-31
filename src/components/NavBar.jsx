@@ -223,11 +223,11 @@ function NavBar(props) {
                   </Button>
                   <Button>
                     <CustomLink
-                      to={`/category/${"lateral"}`}
+                      to={`/category/${"hetonda"}`}
                       className="dropdown-content-link"
                       onClick={handleDrawerToggle}
                     >
-                      Con Lateral
+                      Hetonda
                     </CustomLink>
                   </Button>
                 </AccordionDetails>
@@ -259,11 +259,11 @@ function NavBar(props) {
                   </Button>
                   <Button>
                     <CustomLink
-                      to={`/category/${"dum"}`}
+                      to={`/category/${"dvh"}`}
                       className="dropdown-content-link"
                       onClick={handleDrawerToggle}
                     >
-                      Dum
+                      DVH
                     </CustomLink>
                   </Button>
                   <Button>
@@ -508,11 +508,11 @@ function NavBar(props) {
                       Herrero
                     </CustomLink>
                     <CustomLink
-                      to={`/category/${"lateral"}`}
+                      to={`/category/${"hetonda"}`}
                       className="dropdown-content-link"
                       onClick={handleClose}
                     >
-                      Con Lateral
+                      Hetonda
                     </CustomLink>
                   </div>
                 </MenuItem>
@@ -527,11 +527,11 @@ function NavBar(props) {
                       Float
                     </CustomLink>
                     <CustomLink
-                      to={`/category/${"dum"}`}
+                      to={`/category/${"dvh"}`}
                       className="dropdown-content-link"
                       onClick={handleClose}
                     >
-                      Dum
+                      DVH
                     </CustomLink>
                     <CustomLink
                       to={`/category/${"laminados"}`}

@@ -36,7 +36,7 @@ const ItemListContainer = () => {
     fetchData();
   }, [category]);
   return (
-    <Container>
+    <Container maxWidth="xl">
       <Stack
         height="100px"
         justifyContent="center"

@@ -11,6 +11,8 @@ const ItemList = ({ products }) => {
         marginBottom="80px"
         justifyContent="center"
         sx={{ flexDirection: { xs: "column", br750: "row" } }}
+        maxWidth="1500px"
+        flexWrap="wrap"
       >
         {products.map((product) => (
           <Item

@@ -25,7 +25,7 @@ const ItemDetail = ({ data }) => {
             <Box maxWidth="500px">
               <img src={prod.img} className="img" alt={prod.alt} />
             </Box>
-            <Stack spacing={1}>
+            <Stack spacing={1} maxWidth="650px">
               <Typography
                 variant="button"
                 fontSize="1.5rem"

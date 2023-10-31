@@ -11,16 +11,16 @@ import { Box } from "@mui/material";
 const Item = ({ id, title, category, sub, name, img }) => {
   console.log("item");
   return (
-    <Box margin="auto">
+    <Box sx={{ margin: { xs: "auto", br750: "0" } }}>
       <Card>
         <CardActionArea component={Link} to={`/item/${id}`}>
           <CardMedia
             image={img}
             component="img"
             sx={{
-              maxWidth: { xs: "100px", br400: "320px" },
+              width: { xs: "200px", br400: "320px" },
+              height: { xs: "210px", br400: "330px" },
               paddingTop: "10px",
-              minWidth: "200px",
               margin: "auto",
             }}
           />
