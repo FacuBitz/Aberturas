@@ -556,7 +556,9 @@ function NavBar(props) {
           </List>
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
             <Link
-              to={"https://wa.me/+5491138158705?text=Hola%20quiero%20puertas"}
+              to={
+                "https://wa.me/+5491138158705?text=Hola!%20les%20queria%20hacer%20una%20consulta"
+              }
               target="_blank"
             >
               <Button
@@ -574,7 +576,9 @@ function NavBar(props) {
           {/* deja solo el logo de wpp para mobile */}
           <Box sx={{ display: { xs: "block", md: "none" } }}>
             <Link
-              to={"https://wa.me/+5491138158705?text=Hola%20quiero%20puertas"}
+              to={
+                "https://wa.me/+5491138158705?text=Hola!%20les%20queria%20hacer%20una%20consulta"
+              }
               target="_blank"
             >
               <IconButton color="secondary">
