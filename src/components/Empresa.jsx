@@ -1,6 +1,7 @@
 import { Divider, Stack, Typography } from "@mui/material";
 import React from "react";
 import { useEffect } from "react";
+import fondo2 from "../assets/img/fondo-empresa.jpg";
 
 const Empresa = () => {
   useEffect(() => {
@@ -66,6 +67,8 @@ const Empresa = () => {
         MUY UTILIZADO EN LAS VIVIENDAS PARA LOGRAR UNA MAYOY AISLACIÓN TÉRMICA Y
         ACÚSTICA.
       </Typography>
+      <img src={fondo2} alt="imagen fabrica" className="img" />
+
       {/* un stack mas para las tres fotos de la fabrica grandes */}
     </Stack>
   );

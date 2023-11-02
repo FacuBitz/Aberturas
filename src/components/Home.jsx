@@ -20,6 +20,7 @@ import envios from "../assets/img/envios-a-todo-el-pais.jpg";
 import fabricacion from "../assets/img/fabricacion.jpg";
 import pagos from "../assets/img/medios-de-pago.jpg";
 import { Link } from "react-router-dom";
+import fondo from "../assets/img/fondo.jpg";
 
 // Custom Box for brands display
 const Item = styled(Box)(({ theme }) => ({
@@ -57,7 +58,7 @@ export default function Home() {
   }, []);
   return (
     <Box
-      sx={{ flexGrow: 1, pt: "50px" }}
+      sx={{ flexGrow: 1 }}
       margin="auto"
       width="auto"
       display="flex"
@@ -66,12 +67,14 @@ export default function Home() {
       bgcolor="primary.dark"
       component="main"
     >
+      <img src={fondo} alt="imagen fabrica" className="img" />
       <Stack component="section" alignItems="center" maxWidth="xl">
         <Typography
           fontWeight="600"
           marginBottom="50px"
           variant="h6"
           component="h1"
+          paddingTop="40px"
         >
           TRABAJAMOS CON LOS MEJORES
         </Typography>

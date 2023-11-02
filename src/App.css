@@ -71,7 +71,9 @@ a {
 
 /* Classes for item rendering */
 .img {
-  max-width: 100%;
+  /* estaba con max-width */
+  width: 100%;
+  max-width: 2500px;
   height: auto;
 }
 .white-space {
