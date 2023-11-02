@@ -2,7 +2,14 @@ import * as React from "react";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import { Card, CardMedia, List, ListItem, Typography } from "@mui/material";
+import {
+  Card,
+  CardMedia,
+  Link,
+  List,
+  ListItem,
+  Typography,
+} from "@mui/material";
 import logoBlanco from "../assets/img/logo-lucio-blanco.png";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
@@ -37,7 +44,13 @@ export default function Footer() {
               <ListItem>
                 <WhatsAppIcon color="error" sx={{ mr: "4px", fontSize: 20 }} />
                 <Typography variant="body2" color="primary">
-                  +54 011 3815-8705
+                  <Link
+                    href="tel:+5491138158705"
+                    variant="inherit"
+                    underline="none"
+                  >
+                    +54 9 11 3815-8705
+                  </Link>
                 </Typography>
               </ListItem>
               <ListItem>
@@ -46,13 +59,27 @@ export default function Footer() {
                   sx={{ mr: "4px", fontSize: 20 }}
                 />
                 <Typography variant="body2" color="primary">
-                  Aberturaslucios@gmail.com
+                  <Link
+                    href="mailto:aberturaslucios@gmail.com"
+                    variant="inherit"
+                    underline="none"
+                    target="_blank"
+                  >
+                    Aberturaslucios@gmail.com
+                  </Link>
                 </Typography>
               </ListItem>
               <ListItem>
                 <InstagramIcon color="error" sx={{ mr: "4px", fontSize: 20 }} />
                 <Typography variant="body2" color="primary">
-                  aberturaslucios
+                  <Link
+                    href="https://instagram.com/aberturaslucios?igshid=YTQwZjQ0NmI0OA=="
+                    variant="inherit"
+                    underline="none"
+                    target="_blank"
+                  >
+                    aberturaslucios
+                  </Link>
                 </Typography>
               </ListItem>
             </List>
