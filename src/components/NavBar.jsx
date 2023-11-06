@@ -69,6 +69,7 @@ function NavBar(props) {
     setExpanded(isExpanded ? panel : false);
   };
 
+  // drawer para productos en mobile
   const drawer = (
     <Box sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
@@ -303,7 +304,7 @@ function NavBar(props) {
   const container =
     window !== undefined ? () => window().document.body : undefined;
 
-  // handle menu dropdown de "productos"
+  // handle menu dropdown de "productos" en desktop
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {

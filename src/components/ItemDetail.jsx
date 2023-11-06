@@ -18,19 +18,24 @@ const ItemDetail = ({ data }) => {
       {data.map((prod) => (
         <Box key={prod.id}>
           <Stack
-            sx={{ flexDirection: { xs: "column", sm: "row" } }}
+            sx={{ flexDirection: { xs: "column", br750: "row" } }}
             marginY="80px"
             justifyContent="center"
           >
-            <Box maxWidth="500px">
+            <Box maxWidth="500px" margin="auto">
               <img src={prod.img} className="img" alt={prod.alt} />
             </Box>
-            <Stack spacing={1} maxWidth="650px">
+            <Stack
+              spacing={1}
+              maxWidth="650px"
+              sx={{ marginTop: { xs: "20px", br750: "0" } }}
+            >
               <Typography
                 variant="button"
                 fontSize="1.5rem"
                 fontWeight={600}
                 color="error"
+                sx={{ alignContent: "" }}
               >
                 Caracteristicas
               </Typography>
