@@ -72,9 +72,10 @@ export default function Home() {
         <Typography
           fontWeight="600"
           marginBottom="50px"
-          variant="h6"
+          variant="h5"
           component="h1"
           paddingTop="40px"
+          color="secondary.light"
         >
           TRABAJAMOS CON LOS MEJORES
         </Typography>

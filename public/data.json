@@ -921,7 +921,7 @@
   {
     "id": 51,
     "title": "Aluminio | Herrero | Corrediza",
-    "name": "Aluminio",
+    "name": "Perfileria Herrero",
     "img": "/public-img/aluminio-herrero-1.png",
     "alt": "Puerta Aluminio",
     "category": "herrero",
@@ -940,7 +940,7 @@
   {
     "id": 52,
     "title": "Aluminio | Herrero | Ventana Balcon",
-    "name": "Aluminio",
+    "name": "Ventana balcon",
     "img": "/public-img/aluminio-herrero-2.png",
     "alt": "Puerta Aluminio",
     "category": "herrero",
@@ -959,7 +959,7 @@
   {
     "id": 53,
     "title": "Aluminio | Herrero | Ventana Corrediza",
-    "name": "Aluminio",
+    "name": "Corrediza Herrero",
     "img": "/public-img/aluminio-herrero-3.png",
     "alt": "Puerta Aluminio",
     "category": "herrero",
@@ -978,7 +978,7 @@
   {
     "id": 54,
     "title": "Aluminio | Herrero | Perfil de Abrir",
-    "name": "Aluminio",
+    "name": "Perfileria de abrir Herrero",
     "img": "/public-img/aluminio-herrero-4.png",
     "alt": "Puerta Aluminio",
     "category": "herrero",
@@ -997,7 +997,7 @@
   {
     "id": 55,
     "title": "Aluminio | Hetonda | Corrediza",
-    "name": "Aluminio",
+    "name": "Corrediza Hetonda",
     "img": "/public-img/aluminio-hetonda-1.png",
     "alt": "Puerta Aluminio",
     "category": "hetonda",
@@ -1011,7 +1011,7 @@
   {
     "id": 56,
     "title": "Aluminio | Hetonda | Corrediza",
-    "name": "Aluminio",
+    "name": "Corrediza Hetonda",
     "img": "/public-img/aluminio-hetonda-2.png",
     "alt": "Puerta Aluminio",
     "category": "hetonda",
@@ -1025,7 +1025,7 @@
   {
     "id": 57,
     "title": "Aluminio | Modena | Perfileria de Abrir",
-    "name": "Aluminio",
+    "name": "Perfileria de abrir",
     "img": "/public-img/aluminio-modena-1.png",
     "alt": "Puerta Aluminio",
     "category": "modena",
@@ -1053,7 +1053,7 @@
   {
     "id": 58,
     "title": "Aluminio | Modena | Perfileria Corrediza",
-    "name": "Aluminio",
+    "name": "Perfileria corrediza",
     "img": "/public-img/aluminio-modena-2.png",
     "alt": "Puerta Aluminio",
     "category": "modena",
@@ -1081,7 +1081,7 @@
   {
     "id": 59,
     "title": "Aluminio | Modena | Paño fijo",
-    "name": "Aluminio",
+    "name": "Paño fijo",
     "img": "/public-img/aluminio-modena-3.png",
     "alt": "Puerta Aluminio",
     "category": "modena",
@@ -1109,7 +1109,7 @@
   {
     "id": 60,
     "title": "Aluminio | Modena | Corrediza",
-    "name": "Aluminio",
+    "name": "Corrediza Modena",
     "img": "/public-img/aluminio-modena-4.png",
     "alt": "Puerta Aluminio",
     "category": "modena",
@@ -1137,7 +1137,7 @@
   {
     "id": 61,
     "title": "Aluminio | Modena",
-    "name": "Aluminio",
+    "name": "Raja de abrir",
     "img": "/public-img/aluminio-modena-5.png",
     "alt": "Puerta Aluminio",
     "category": "modena",
@@ -1165,7 +1165,7 @@
   {
     "id": 62,
     "title": "Aluminio | Modena | Brazo de Empuje",
-    "name": "Aluminio",
+    "name": "Brazo de empuje",
     "img": "/public-img/aluminio-modena-6.png",
     "alt": "Puerta Aluminio",
     "category": "modena",
@@ -1193,7 +1193,7 @@
   {
     "id": 63,
     "title": "Aluminio | Modena | Banderola",
-    "name": "Aluminio",
+    "name": "Banderola",
     "img": "/public-img/aluminio-modena-7.png",
     "alt": "Puerta Aluminio",
     "category": "modena",
@@ -1245,7 +1245,7 @@
   {
     "id": 65,
     "title": "Vidrio | Float | Fantasia",
-    "name": "Vidrio | Float",
+    "name": "Vidrio | Fantasia",
     "img": "/public-img/vidrios-float-1.png",
     "alt": "Vidrio",
     "category": "float",

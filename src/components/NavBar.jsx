@@ -31,6 +31,11 @@ const CustomLink = styled(Link)(() => ({
   // onClick: { handleClose },
 }));
 
+// Custom Button for dropwdown menu
+const CustomButton = styled(Button)(() => ({
+  minWidth: "30px",
+}));
+
 // Custom Accordion for responsive app bar
 // ---------------- No funciona, estaria bueno porq ahorra mucho codigo, tratar de que funcione -------------------
 // const CustomAccordion = styled(Accordion)(() => ({
@@ -123,7 +128,7 @@ function NavBar(props) {
                   </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                  <Button>
+                  <CustomButton>
                     <CustomLink
                       to={`/category/${"interior"}`}
                       className="dropdown-content-link"
@@ -131,8 +136,8 @@ function NavBar(props) {
                     >
                       Interior
                     </CustomLink>
-                  </Button>
-                  <Button>
+                  </CustomButton>
+                  <CustomButton>
                     <CustomLink
                       to={`/category/${"exterior"}`}
                       className="dropdown-content-link"
@@ -140,7 +145,7 @@ function NavBar(props) {
                     >
                       Exterior
                     </CustomLink>
-                  </Button>
+                  </CustomButton>
                 </AccordionDetails>
               </Accordion>
               <Accordion
@@ -155,28 +160,46 @@ function NavBar(props) {
                   id="panel2bh-header"
                 >
                   <Typography sx={{ width: "33%", flexShrink: 0 }}>
-                    Portones
+                    Aluminio
                   </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                  <Button>
+                  <CustomButton>
                     <CustomLink
-                      to={`/category/${"aluminio"}`}
+                      to={`/category/${"modena"}`}
                       className="dropdown-content-link"
                       onClick={handleDrawerToggle}
                     >
-                      Aluminio
+                      Linea Modena
                     </CustomLink>
-                  </Button>
-                  <Button>
+                  </CustomButton>
+                  <CustomButton>
                     <CustomLink
-                      to={`/category/${"chapa"}`}
+                      to={`/category/${"a30"}`}
                       className="dropdown-content-link"
                       onClick={handleDrawerToggle}
                     >
-                      Chapa
+                      A30 New
                     </CustomLink>
-                  </Button>
+                  </CustomButton>
+                  <CustomButton>
+                    <CustomLink
+                      to={`/category/${"herrero"}`}
+                      className="dropdown-content-link"
+                      onClick={handleDrawerToggle}
+                    >
+                      Herrero
+                    </CustomLink>
+                  </CustomButton>
+                  <CustomButton>
+                    <CustomLink
+                      to={`/category/${"hetonda"}`}
+                      className="dropdown-content-link"
+                      onClick={handleDrawerToggle}
+                    >
+                      Hetonda
+                    </CustomLink>
+                  </CustomButton>
                 </AccordionDetails>
               </Accordion>
               <Accordion
@@ -191,65 +214,11 @@ function NavBar(props) {
                   id="panel3bh-header"
                 >
                   <Typography sx={{ width: "33%", flexShrink: 0 }}>
-                    Aluminio
-                  </Typography>
-                </AccordionSummary>
-                <AccordionDetails>
-                  <Button>
-                    <CustomLink
-                      to={`/category/${"modena"}`}
-                      className="dropdown-content-link"
-                      onClick={handleDrawerToggle}
-                    >
-                      Linea Modena
-                    </CustomLink>
-                  </Button>
-                  <Button>
-                    <CustomLink
-                      to={`/category/${"a30"}`}
-                      className="dropdown-content-link"
-                      onClick={handleDrawerToggle}
-                    >
-                      A30 New
-                    </CustomLink>
-                  </Button>
-                  <Button>
-                    <CustomLink
-                      to={`/category/${"herrero"}`}
-                      className="dropdown-content-link"
-                      onClick={handleDrawerToggle}
-                    >
-                      Herrero
-                    </CustomLink>
-                  </Button>
-                  <Button>
-                    <CustomLink
-                      to={`/category/${"hetonda"}`}
-                      className="dropdown-content-link"
-                      onClick={handleDrawerToggle}
-                    >
-                      Hetonda
-                    </CustomLink>
-                  </Button>
-                </AccordionDetails>
-              </Accordion>
-              <Accordion
-                disableGutters
-                expanded={expanded === "panel4"}
-                onChange={handleChange("panel4")}
-                sx={{ boxShadow: 0 }}
-              >
-                <AccordionSummary
-                  expandIcon={<ExpandMoreIcon />}
-                  aria-controls="panel4bh-content"
-                  id="panel4bh-header"
-                >
-                  <Typography sx={{ width: "33%", flexShrink: 0 }}>
                     Vidrios
                   </Typography>
                 </AccordionSummary>
                 <AccordionDetails>
-                  <Button>
+                  <CustomButton>
                     <CustomLink
                       to={`/category/${"float"}`}
                       className="dropdown-content-link"
@@ -257,17 +226,8 @@ function NavBar(props) {
                     >
                       Float
                     </CustomLink>
-                  </Button>
-                  <Button>
-                    <CustomLink
-                      to={`/category/${"dvh"}`}
-                      className="dropdown-content-link"
-                      onClick={handleDrawerToggle}
-                    >
-                      DVH
-                    </CustomLink>
-                  </Button>
-                  <Button>
+                  </CustomButton>
+                  <CustomButton>
                     <CustomLink
                       to={`/category/${"laminados"}`}
                       className="dropdown-content-link"
@@ -275,14 +235,33 @@ function NavBar(props) {
                     >
                       Laminados
                     </CustomLink>
-                  </Button>
+                  </CustomButton>
+                  <CustomButton>
+                    <CustomLink
+                      to={`/category/${"dvh"}`}
+                      className="dropdown-content-link"
+                      onClick={handleDrawerToggle}
+                    >
+                      DVH
+                    </CustomLink>
+                  </CustomButton>
                 </AccordionDetails>
               </Accordion>
               <Divider sx={{ marginBottom: "10px" }} />
               <CustomLink
+                to={`/category/${"chapa"}`}
+                className="dropdown-content-link"
+                onClick={handleDrawerToggle}
+                sx={{ paddingLeft: "15px" }}
+              >
+                Portones
+              </CustomLink>
+              <Divider sx={{ marginY: "10px" }} />
+              <CustomLink
                 to={`/category/${"placard"}`}
                 className="dropdown-content-link"
                 onClick={handleDrawerToggle}
+                sx={{ paddingLeft: "15px" }}
               >
                 Frentes de placard
               </CustomLink>
@@ -465,24 +444,8 @@ function NavBar(props) {
                     </CustomLink>
                   </div>
                 </MenuItem>
-                <MenuItem className="dropdown">
-                  <Typography>Portones</Typography>
-                  <div className="dropdown-content">
-                    <CustomLink
-                      to={`/category/${"aluminio"}`}
-                      className="dropdown-content-link"
-                      onClick={handleClose}
-                    >
-                      Aluminio
-                    </CustomLink>
-                    <CustomLink
-                      to={`/category/${"chapa"}`}
-                      className="dropdown-content-link"
-                      onClick={handleClose}
-                    >
-                      Chapa
-                    </CustomLink>
-                  </div>
+                <MenuItem onClick={handleClose}>
+                  <Link to={`/category/${"chapa"}`}>Portones</Link>
                 </MenuItem>
                 <MenuItem className="dropdown">
                   <Typography>Aluminio</Typography>
