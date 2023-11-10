@@ -34,7 +34,7 @@ export default function Footer() {
       component="footer"
       id="cto"
     >
-      <Grid container marginTop="0" maxWidth="2000px">
+      <Grid container marginTop="0" maxWidth="2000px" margin="auto">
         <Grid item xs={12} sm={5} md={4.5}>
           <Item sx={{ justifyContent: { xs: "flex-start", sm: "center" } }}>
             <List>

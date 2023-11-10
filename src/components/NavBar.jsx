@@ -366,6 +366,8 @@ function NavBar(props) {
           sx={{
             justifyContent: { xs: "space-between", md: "space-around" },
             maxWidth: "2000px",
+            margin: "auto",
+            width: "100%",
           }}
         >
           <Box sx={{ mr: 2, display: { md: "none" } }}>
