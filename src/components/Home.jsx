@@ -70,14 +70,15 @@ export default function Home() {
       <img src={fondo} alt="imagen fabrica" className="img" />
       <Stack component="section" alignItems="center" maxWidth="xl">
         <Typography
-          fontWeight="600"
-          marginBottom="50px"
-          variant="h5"
+          fontFamily="Open Sans"
+          fontSize="2rem"
+          fontWeight="700"
+          paddingTop="90px"
+          marginBottom="60px"
           component="h1"
-          paddingTop="40px"
           color="secondary.light"
         >
-          TRABAJAMOS CON LOS MEJORES
+          ¡TRABAJAMOS CON LOS MEJORES!
         </Typography>
         <Grid
           container
@@ -91,7 +92,7 @@ export default function Home() {
             <Item>
               <Card
                 sx={{
-                  maxWidth: { xs: "75px", sm: "70px" },
+                  maxWidth: { xs: "75px", sm: "68px" },
                   backgroundColor: "transparent",
                   boxShadow: "none",
                 }}
@@ -104,7 +105,7 @@ export default function Home() {
             <Item>
               <Card
                 sx={{
-                  maxWidth: { xs: "120px", sm: "160px" },
+                  maxWidth: { xs: "120px", sm: "158px" },
                   backgroundColor: "transparent",
                   boxShadow: "none",
                 }}
@@ -143,7 +144,7 @@ export default function Home() {
             <Item>
               <Card
                 sx={{
-                  maxWidth: { xs: "120px", sm: "150px" },
+                  maxWidth: { xs: "120px", sm: "148px" },
                   backgroundColor: "transparent",
                   boxShadow: "none",
                 }}
@@ -156,7 +157,7 @@ export default function Home() {
             <Item>
               <Card
                 sx={{
-                  maxWidth: { xs: "90px", sm: "80px" },
+                  maxWidth: { xs: "90px", sm: "78px" },
                   backgroundColor: "transparent",
                   boxShadow: "none",
                 }}

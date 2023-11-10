@@ -1,4 +1,4 @@
-import { Divider, Stack, Typography } from "@mui/material";
+import { Container, Divider, Stack, Typography } from "@mui/material";
 import React from "react";
 import { useEffect } from "react";
 import fondo2 from "../assets/img/fondo-empresa.jpg";
@@ -13,60 +13,73 @@ const Empresa = () => {
       alignItems="center"
       sx={{ flexGrow: 1, pt: "50px" }}
       bgcolor="secondary.light"
-      spacing={2}
+      spacing={3}
     >
       <Typography
         component="h1"
-        variant="h5"
-        fontWeight="600"
+        fontWeight="700"
         color="secondary.contrastText"
+        fontSize="2rem"
+        fontFamily="Open Sans"
       >
         LA EMPRESA
       </Typography>
       <Divider width="100px" color="#d16014" />
-      <Typography
-        fontWeight="500"
-        color="secondary.contrastText"
-        textAlign="center"
-      >
-        CONTAMOS CON MAS DE 10 AÑOS DE EXPERIENCIA EN EL RUBRO. NOS DEDICAMOS A
-        LA VENTA Y FABRICACION DE ABERTURAS PARA LA CONSTRUCCION.
-      </Typography>
-      <Typography
-        fontWeight="500"
-        color="secondary.contrastText"
-        textAlign="center"
-      >
-        COMERCIALIZANDO PRODUCTOS DE PRIMERAS MARCAS, QUE GARANTIZAN LA
-        CONFIANZA CON EL CLIENTE Y EL BIENESTAR DE TU HOGAR.
-      </Typography>
+      <Container>
+        <Typography
+          fontWeight="500"
+          color="secondary.contrastText"
+          textAlign="center"
+          fontSize="1.2rem"
+          paddingBottom="20px"
+        >
+          Contamos con mas de 10 años de experiencia en el rubro. Nos dedicamos
+          a la venta y fabricacion de aberturas para la construcción.
+        </Typography>
+        <Typography
+          fontWeight="500"
+          color="secondary.contrastText"
+          textAlign="center"
+          fontSize="1.2rem"
+        >
+          Comercializando productos de primeras marcas, que garantizan la
+          confianza con el cliente y el bienestar de tu hogar.
+        </Typography>
+      </Container>
       <Typography
         component="h2"
-        variant="h6"
-        marginTop="50px"
+        fontWeight="700"
         color="secondary.contrastText"
+        variant="h5"
+        marginTop="50px"
+        fontFamily="Open Sans"
       >
-        NUESTRA FABRICA
+        NUESTRA FÁBRICA
       </Typography>
       <Divider width="100px" color="#d16014" />
-      <Typography
-        fontWeight="500"
-        color="secondary.contrastText"
-        textAlign="center"
-      >
-        CONTAMOS CON UN GALPON DE MAS DE 300Mts 2. DONDE REALIZAMOS LA
-        PRODUCCION DE CARPINTERIAS DE ALUMINIO EN MEDIA Y ALTA PRESTACIÓN.
-      </Typography>
-      <Typography
-        fontWeight="500"
-        marginBottom="50px"
-        color="secondary.contrastText"
-        textAlign="center"
-      >
-        NOS ESPECIALIZAMOS EN VIDRIOS DVH (DOBLE VIDRIADO HERMETICO), EL CUAL ES
-        MUY UTILIZADO EN LAS VIVIENDAS PARA LOGRAR UNA MAYOY AISLACIÓN TÉRMICA Y
-        ACÚSTICA.
-      </Typography>
+      <Container>
+        <Typography
+          fontWeight="500"
+          color="secondary.contrastText"
+          textAlign="center"
+          fontSize="1.2rem"
+          paddingBottom="20px"
+        >
+          Contamos con un galpon de mas de 300Mts cuadrados donde realizamos la
+          produccion de carpinterías de aluminio en media y alta prestación
+        </Typography>
+        <Typography
+          fontWeight="500"
+          color="secondary.contrastText"
+          textAlign="center"
+          fontSize="1.2rem"
+          marginBottom="50px"
+        >
+          Nos especializamos en vidrios DVH (doble vidriado hermético), el cual
+          es muy utilizado en las viviendas para lograr una mayor aislación
+          térmica y acústica.
+        </Typography>
+      </Container>
       <img src={fondo2} alt="imagen fabrica" className="img" />
 
       {/* un stack mas para las tres fotos de la fabrica grandes */}
