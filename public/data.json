@@ -1277,7 +1277,19 @@
     "img": "/public-img/vidrios-laminado-1.jpg",
     "alt": "Vidrio",
     "category": "laminados",
-    "description": ["vacio ?"]
+    "description": [
+      "Los vidrios Laminados son la solución ideal para aberturass y cerramientos seguros. El vidrio Laminado se fabrica en una línea de producción de última generación uniendo dos láminas de vidrio float a una interlámina plástica de alta elasticidad (PVB). Su gran resistencia y rotura segura evitan accidentes con vidrio ante un desafortunado impacto.",
+      "Caracteristicas que presentan estos tipos de vidrios:",
+      "Solución ideal para cerramientos seguros.",
+      "Evita accidentes con vidrio al romperse en forma segura.",
+      "Su gran resistencia tiende a contener a una persona u objeto en caso de impactos.",
+      "Si el cristal se quiebra, mantiene la integridad y visibilidad a través del cerramiento.",
+      "Aumenta el nivel de aislación acústica.",
+      "Filtra el 94% de radiación UV, evitando la decoloración prematura de los amoblamientos.",
+      "Espesores: ",
+      "3+3",
+      "4+4"
+    ]
   },
   {
     "id": 68,
@@ -1286,7 +1298,19 @@
     "img": "/public-img/vidrios-laminado-2.png",
     "alt": "Vidrio",
     "category": "laminados",
-    "description": ["vacio ?"]
+    "description": [
+      "Los vidrios Laminados son la solución ideal para aberturass y cerramientos seguros. El vidrio Laminado se fabrica en una línea de producción de última generación uniendo dos láminas de vidrio float a una interlámina plástica de alta elasticidad (PVB). Su gran resistencia y rotura segura evitan accidentes con vidrio ante un desafortunado impacto.",
+      "Caracteristicas que presentan estos tipos de vidrios:",
+      "Solución ideal para cerramientos seguros.",
+      "Evita accidentes con vidrio al romperse en forma segura.",
+      "Su gran resistencia tiende a contener a una persona u objeto en caso de impactos.",
+      "Si el cristal se quiebra, mantiene la integridad y visibilidad a través del cerramiento.",
+      "Aumenta el nivel de aislación acústica.",
+      "Filtra el 94% de radiación UV, evitando la decoloración prematura de los amoblamientos.",
+      "Espesores: ",
+      "3+3",
+      "4+4"
+    ]
   },
   {
     "id": 69,

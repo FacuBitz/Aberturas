@@ -14,7 +14,7 @@ const ItemDetail = ({ data }) => {
             marginY="80px"
             justifyContent="center"
           >
-            <Box maxWidth="500px" margin="auto">
+            <Box maxWidth="500px" margin="auto" marginRight="5px">
               <img src={prod.img} className="img" alt={prod.alt} />
             </Box>
             <Stack
