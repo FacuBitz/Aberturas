@@ -1,4 +1,6 @@
-import { Box, Container, Stack, Typography } from "@mui/material";
+import Stack from "@mui/material/Stack";
+import Container from "@mui/material/Container";
+import Typography from "@mui/material/Typography";
 import React from "react";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";

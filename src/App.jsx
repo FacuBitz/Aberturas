@@ -7,7 +7,7 @@ import ItemDetailContainer from "./components/ItemDetailContainer";
 import ItemListContainer from "./components/ItemListContainer";
 import React from "react";
 import "./App.css";
-import { Button, Container, ThemeProvider } from "@mui/material";
+import { ThemeProvider } from "@mui/material";
 import theme from "./styles/theme";
 import CssBaseline from "@mui/material/CssBaseline";
 
@@ -18,7 +18,6 @@ const App = () => {
         <CssBaseline />
         <ThemeProvider theme={theme}>
           <NavBar />
-          {/* <Container maxWidth="xl" component="main"> */}
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/empresa" element={<Empresa />} />
@@ -30,7 +29,6 @@ const App = () => {
             />
             <Route exact path="/item/:id" element={<ItemDetailContainer />} />
           </Routes>
-          {/* </Container> */}
           <Footer />
         </ThemeProvider>
       </BrowserRouter>

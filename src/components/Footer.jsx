@@ -2,14 +2,12 @@ import * as React from "react";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import {
-  Card,
-  CardMedia,
-  Link,
-  List,
-  ListItem,
-  Typography,
-} from "@mui/material";
+import Card from "@mui/material/Card";
+import CardMedia from "@mui/material/CardMedia";
+import Link from "@mui/material/Link";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import Typography from "@mui/material/Typography";
 import logoBlanco from "../assets/img/logo-lucio-blanco.png";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
@@ -27,9 +25,6 @@ export default function Footer() {
     <Box
       sx={{ flexGrow: 1 }}
       backgroundColor="secondary.dark"
-      // position y bottom sacarlo cuando ya tenga mas contenido
-      // position="absolute"
-      // bottom="0"
       width="100%"
       component="footer"
       id="cto"
@@ -104,7 +99,7 @@ export default function Footer() {
                 margin: "10px",
               }}
             >
-              <CardMedia component="img" image={logoBlanco} />
+              <CardMedia component="img" image={logoBlanco} alt="logo" />
             </Card>
           </Item>
         </Grid>

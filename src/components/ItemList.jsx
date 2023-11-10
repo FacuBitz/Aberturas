@@ -1,4 +1,4 @@
-import { Container, Stack } from "@mui/material";
+import Stack from "@mui/material/Stack";
 import React from "react";
 import Item from "./Item";
 
@@ -7,7 +7,6 @@ const ItemList = ({ products }) => {
     <div>
       <Stack
         spacing={5}
-        flexDirection="row"
         marginBottom="80px"
         justifyContent="center"
         sx={{ flexDirection: { xs: "column", br750: "row" } }}

@@ -6,9 +6,9 @@ import Stack from "@mui/material/Stack";
 import Typography from "@mui/material/Typography";
 import React from "react";
 import { Link } from "react-router-dom";
-import { Box } from "@mui/material";
+import Box from "@mui/material/Box";
 
-const Item = ({ id, title, category, sub, name, img }) => {
+const Item = ({ id, alt, name, img }) => {
   console.log("item");
   return (
     <Box sx={{ margin: { xs: "auto", br750: "0" } }}>
@@ -17,6 +17,7 @@ const Item = ({ id, title, category, sub, name, img }) => {
           <CardMedia
             image={img}
             component="img"
+            alt={alt}
             sx={{
               width: { xs: "200px", br400: "320px" },
               height: { xs: "210px", br400: "330px" },

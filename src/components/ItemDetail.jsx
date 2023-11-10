@@ -1,16 +1,8 @@
-import {
-  Box,
-  Button,
-  ButtonGroup,
-  Card,
-  Container,
-  Divider,
-  ImageList,
-  Stack,
-  Typography,
-} from "@mui/material";
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
+import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
 import React from "react";
-import CardMedia from "@mui/material/CardMedia";
 
 const ItemDetail = ({ data }) => {
   return (

@@ -11,7 +11,11 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
-import { Card, CardMedia, Menu, MenuItem, Stack } from "@mui/material";
+import Stack from "@mui/material/Stack";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
+import Card from "@mui/material/Card";
+import CardMedia from "@mui/material/CardMedia";
 import logo from "../assets/img/logo-lucio.png";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
@@ -43,19 +47,6 @@ const CustomButton = styled(Button)(() => ({
 //   boxShadow: 0,
 // }));
 
-// ----------- Funcion para que baje el navbar al hacer scroll -----------------
-// function HideOnScroll(props) {
-//   const { children, window } = props;
-//   const trigger = useScrollTrigger({
-//     target: window ? window() : undefined,
-//   });
-//   return (
-//     <Slide appear={false} direction="down" in={!trigger}>
-//       {children}
-//     </Slide>
-//   );
-// }
-
 function NavBar(props) {
   // drawer toggle
   const { window } = props;
@@ -74,7 +65,7 @@ function NavBar(props) {
     setExpanded(isExpanded ? panel : false);
   };
 
-  // drawer para productos en mobile
+  // drawer for mobile
   const drawer = (
     <Box sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
@@ -283,7 +274,7 @@ function NavBar(props) {
   const container =
     window !== undefined ? () => window().document.body : undefined;
 
-  // handle menu dropdown de "productos" en desktop
+  // handle menu dropdown "productos" in desktop
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
@@ -298,20 +289,13 @@ function NavBar(props) {
       component="header"
       sx={{
         display: "flex",
-        //  height: { xs: "108px", md: "135px" }
-        // para activar scroll sacar comentarios al height, function HideOnScroll y etiqueta HideOnScroll
-        // tambien sacar  position="sticky" del AppBar
-        // ------------------- dejo comentado porq enrealidad esta mal darle un height al navbar, mala practica -----------------
       }}
     >
-      {/* position viene fixed pero me tapa parte del main, tener en cuenta, puedo sobreescribirle un height pero esta mal */}
-      {/* <HideOnScroll {...props}> */}
       <AppBar component="nav" position="sticky">
         <Box backgroundColor="secondary.dark">
           <Stack
-            direction="row"
+            flexDirection="row"
             spacing={5}
-            justifyContent="center"
             alignItems="center"
             sx={{ justifyContent: { xs: "space-around", sm: "center" } }}
             divider={
@@ -326,7 +310,7 @@ function NavBar(props) {
               />
             }
           >
-            <Stack direction="row" alignItems="center">
+            <Stack flexDirection="row" alignItems="center">
               <Stack
                 sx={{ width: { xs: "auto", sm: "260px" } }}
                 flexDirection="row"
@@ -382,7 +366,6 @@ function NavBar(props) {
           </Box>
           <Card
             sx={{
-              // maxWidth: { xs: "60px", md: "90px" },
               backgroundColor: "transparent",
               boxShadow: "none",
               margin: "10px",
@@ -392,6 +375,7 @@ function NavBar(props) {
             <CardMedia
               component="img"
               image={logo}
+              alt="logo empresa"
               sx={{ maxWidth: { xs: "60px", md: "90px" } }}
             />
           </Card>
@@ -514,7 +498,6 @@ function NavBar(props) {
               </Menu>
             </ListItem>
             <ListItem>
-              {/* baja pero no cuando estoy en otra pagina, y tampoco lo puedo hacer smooth */}
               <a href="/#cto">
                 <Button color="secondary">Contacto</Button>
               </a>
@@ -539,7 +522,7 @@ function NavBar(props) {
               </Button>
             </Link>
           </Box>
-          {/* deja solo el logo de wpp para mobile */}
+          {/* hides "escribinos" button and leaves wpp logo only */}
           <Box sx={{ display: { xs: "block", md: "none" } }}>
             <Link
               to={
@@ -554,7 +537,6 @@ function NavBar(props) {
           </Box>
         </Toolbar>
       </AppBar>
-      {/* </HideOnScroll> */}
       <nav>
         <Drawer
           container={container}

@@ -1,7 +1,6 @@
 import { createTheme } from "@mui/material";
 
 const theme = createTheme({
-  // si genera error en algun stack sacar esto
   components: {
     MuiStack: {
       defaultProps: {
@@ -27,7 +26,6 @@ const theme = createTheme({
       main: "#D16014",
       light: "#de8f5a",
       dark: "#92430e",
-      // contrastText: '#fff',
     },
   },
   // ----------------------------------------

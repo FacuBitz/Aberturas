@@ -1,4 +1,7 @@
-import { Container, Divider, Stack, Typography } from "@mui/material";
+import Container from "@mui/material/Container";
+import Divider from "@mui/material/Divider";
+import Stack from "@mui/material/Stack";
+import Typography from "@mui/material/Typography";
 import React from "react";
 import { useEffect } from "react";
 import fondo2 from "../assets/img/fondo-empresa.jpg";
@@ -11,7 +14,7 @@ const Empresa = () => {
     <Stack
       component="main"
       alignItems="center"
-      sx={{ flexGrow: 1, pt: "50px" }}
+      paddingTop="50px"
       bgcolor="secondary.light"
       spacing={3}
     >
@@ -80,9 +83,7 @@ const Empresa = () => {
           térmica y acústica.
         </Typography>
       </Container>
-      <img src={fondo2} alt="imagen fabrica" className="img" />
-
-      {/* un stack mas para las tres fotos de la fabrica grandes */}
+      <img src={fondo2} alt="imagenes fabrica" className="img" />
     </Stack>
   );
 };

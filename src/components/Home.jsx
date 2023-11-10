@@ -1,9 +1,12 @@
 import React from "react";
 import { useEffect } from "react";
-import { Button, Card, CardMedia, Divider, Stack } from "@mui/material";
+import Card from "@mui/material/Card";
+import CardMedia from "@mui/material/CardMedia";
+import Divider from "@mui/material/Divider";
+import Stack from "@mui/material/Stack";
+import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-// import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import aluar from "../assets/img/logo-aluar.png";
 import caia from "../assets/img/logo-caia.png";
@@ -34,7 +37,6 @@ const Item = styled(Box)(({ theme }) => ({
   [theme.breakpoints.down("sm")]: {
     width: "30vw",
   },
-  // maxWidth: "300px",
 }));
 
 // Custom Grid for brands display
@@ -45,9 +47,6 @@ const Brands = styled(Grid)(() => ({
 
 // Custom Card for services img
 const Services = styled(Card)(({ theme }) => ({
-  // [theme.breakpoints.down("md")]: {
-  //   width: "45vw",
-  // }
   backgroundColor: "transparent",
   boxShadow: "none",
 }));
@@ -97,7 +96,7 @@ export default function Home() {
                   boxShadow: "none",
                 }}
               >
-                <CardMedia component="img" image={aluar} />
+                <CardMedia component="img" image={aluar} alt="logo aluar" />
               </Card>
             </Item>
           </Brands>
@@ -110,7 +109,7 @@ export default function Home() {
                   boxShadow: "none",
                 }}
               >
-                <CardMedia component="img" image={caia} />
+                <CardMedia component="img" image={caia} alt="logo caia" />
               </Card>
             </Item>
           </Brands>
@@ -123,7 +122,7 @@ export default function Home() {
                   boxShadow: "none",
                 }}
               >
-                <CardMedia component="img" image={elitalo} />
+                <CardMedia component="img" image={elitalo} alt="logo elitalo" />
               </Card>
             </Item>
           </Brands>
@@ -136,7 +135,7 @@ export default function Home() {
                   boxShadow: "none",
                 }}
               >
-                <CardMedia component="img" image={pavir} />
+                <CardMedia component="img" image={pavir} alt="logo pavir" />
               </Card>
             </Item>
           </Brands>
@@ -149,7 +148,7 @@ export default function Home() {
                   boxShadow: "none",
                 }}
               >
-                <CardMedia component="img" image={potenza} />
+                <CardMedia component="img" image={potenza} alt="logo potenza" />
               </Card>
             </Item>
           </Brands>
@@ -162,7 +161,7 @@ export default function Home() {
                   boxShadow: "none",
                 }}
               >
-                <CardMedia component="img" image={vasa} />
+                <CardMedia component="img" image={vasa} alt="logo vasa" />
               </Card>
             </Item>
           </Brands>
@@ -197,7 +196,11 @@ export default function Home() {
                 boxShadow: "none",
               }}
             >
-              <CardMedia component="img" image={puerta} />
+              <CardMedia
+                component="img"
+                image={puerta}
+                alt="ilustracion puerta"
+              />
 
               <Typography variant="button" color="secondary.contrastText">
                 Puertas
@@ -223,7 +226,11 @@ export default function Home() {
                 boxShadow: "none",
               }}
             >
-              <CardMedia component="img" image={ventana} />
+              <CardMedia
+                component="img"
+                image={ventana}
+                alt="ilustracion ventana"
+              />
 
               <Typography variant="button" color="secondary.contrastText">
                 Ventanas
@@ -330,6 +337,7 @@ export default function Home() {
                 <CardMedia
                   component="img"
                   image={arquitectos}
+                  alt="servicio de arquitectos"
                   className="image__overlay"
                 />
                 <Box className="overlay">
@@ -344,6 +352,7 @@ export default function Home() {
                 <CardMedia
                   component="img"
                   image={envios}
+                  alt="servicio de envios"
                   className="image__overlay"
                 />
                 <Box className="overlay">
@@ -358,6 +367,7 @@ export default function Home() {
                 <CardMedia
                   component="img"
                   image={fabricacion}
+                  alt="servicio de fabricacion"
                   className="image__overlay"
                 />
                 <Box className="overlay">
@@ -372,6 +382,7 @@ export default function Home() {
                 <CardMedia
                   component="img"
                   image={pagos}
+                  alt="servicio pagos"
                   className="image__overlay"
                 />
                 <Box className="overlay">
