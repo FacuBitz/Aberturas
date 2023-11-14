@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import ItemDetail from "./ItemDetail";
+import Box from "@mui/material/Box";
 
 const ItemDetailContainer = () => {
   const { id } = useParams();
@@ -24,9 +25,9 @@ const ItemDetailContainer = () => {
   }, []);
 
   return (
-    <div>
+    <Box component="main" display="flex" alignItems="center">
       <ItemDetail data={prod} />
-    </div>
+    </Box>
   );
 };
 

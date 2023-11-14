@@ -11,7 +11,7 @@ const ItemDetail = ({ data }) => {
         <Box key={prod.id}>
           <Stack
             sx={{ flexDirection: { xs: "column", br750: "row" } }}
-            marginY="80px"
+            marginY="50px"
             justifyContent="center"
           >
             <Box

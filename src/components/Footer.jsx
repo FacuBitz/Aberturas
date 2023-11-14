@@ -23,7 +23,7 @@ const Item = styled(Box)(({ theme }) => ({
 export default function Footer() {
   return (
     <Box
-      sx={{ flexGrow: 1 }}
+      sx={{ flexGrow: 1, maxHeight: { xs: "none", br750: "185px" } }}
       backgroundColor="secondary.dark"
       width="100%"
       component="footer"
