@@ -1,8 +1,17 @@
-# React + Vite
+# Lucio's Aberturas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto web para nueva compañia de aberturas, el usuario puede interactuar con la pagina viendo todo el catalogo de productos que se ofrece, con su respectiva descripcion, puede filtrarlos por categoria, navegar entre las paginas y contactarse facilmente con el vendedor de ser necesario.
 
-Currently, two official plugins are available:
+### Tecnologias
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+- React JS
+- Vite.js
+- Material UI
+
+### Autores
+
+---
+
+- [@FacuBitz](https://www.github.com/FacuBitz)
