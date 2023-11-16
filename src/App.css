@@ -46,11 +46,6 @@ main {
 }
 /* Fin del overlay */
 
-/* BG-Color al Menu List */
-/* .MuiList-root {
-  background-color: #f6f8ff;
-} */
-
 /* Dropwdown para el menu del navbar */
 .dropdown {
   position: relative;
@@ -79,9 +74,9 @@ main {
 
 /* Classes for item rendering */
 .img {
-  /* estaba con max-width */
   width: 100%;
   max-width: 2500px;
+  min-width: 260px;
   height: auto;
 }
 .white-space {

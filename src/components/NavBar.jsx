@@ -329,7 +329,7 @@ function NavBar(props) {
                 <Typography
                   color="primary"
                   variant="body2"
-                  sx={{ fontSize: { xs: "12px", lg: "14px" } }}
+                  sx={{ fontSize: { xs: "10px", br400: "12px", lg: "14px" } }}
                 >
                   +54 011 3815-8705
                 </Typography>
@@ -339,7 +339,7 @@ function NavBar(props) {
               <Typography
                 color="primary"
                 variant="body2"
-                sx={{ fontSize: { xs: "12px", lg: "14px" } }}
+                sx={{ fontSize: { xs: "10px", br400: "12px", lg: "14px" } }}
               >
                 LA TABLADA, PARTIDO DE LA MATANZA
               </Typography>

@@ -70,12 +70,15 @@ export default function Home() {
       <Stack component="section" alignItems="center" maxWidth="xl">
         <Typography
           fontFamily="Open Sans"
-          fontSize="2rem"
+          sx={{
+            fontSize: { xs: "1.2rem", sm: "1.5rem", md: "1.8rem", lg: "2rem" },
+            paddingTop: { xs: "50px", md: "90px" },
+          }}
           fontWeight="700"
-          paddingTop="90px"
           marginBottom="60px"
           component="h1"
           color="secondary.light"
+          align="center"
         >
           ¡TRABAJAMOS CON LOS MEJORES!
         </Typography>

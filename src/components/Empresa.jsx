@@ -22,7 +22,9 @@ const Empresa = () => {
         component="h1"
         fontWeight="700"
         color="secondary.contrastText"
-        fontSize="2rem"
+        sx={{
+          fontSize: { xs: "1.5rem", md: "1.8rem", lg: "2rem" },
+        }}
         fontFamily="Open Sans"
       >
         LA EMPRESA
@@ -33,7 +35,9 @@ const Empresa = () => {
           fontWeight="500"
           color="secondary.contrastText"
           textAlign="center"
-          fontSize="1.2rem"
+          sx={{
+            fontSize: { xs: "1rem", sm: "1.2rem" },
+          }}
           paddingBottom="20px"
         >
           Contamos con mas de 10 años de experiencia en el rubro. Nos dedicamos
@@ -43,7 +47,9 @@ const Empresa = () => {
           fontWeight="500"
           color="secondary.contrastText"
           textAlign="center"
-          fontSize="1.2rem"
+          sx={{
+            fontSize: { xs: "1rem", sm: "1.2rem" },
+          }}
         >
           Comercializando productos de primeras marcas, que garantizan la
           confianza con el cliente y el bienestar de tu hogar.
@@ -53,7 +59,9 @@ const Empresa = () => {
         component="h2"
         fontWeight="700"
         color="secondary.contrastText"
-        variant="h5"
+        sx={{
+          fontSize: { xs: "1.5rem" },
+        }}
         marginTop="50px"
         fontFamily="Open Sans"
       >
@@ -65,7 +73,9 @@ const Empresa = () => {
           fontWeight="500"
           color="secondary.contrastText"
           textAlign="center"
-          fontSize="1.2rem"
+          sx={{
+            fontSize: { xs: "1rem", sm: "1.2rem" },
+          }}
           paddingBottom="20px"
         >
           Contamos con un galpon de mas de 300Mts cuadrados donde realizamos la
@@ -75,7 +85,9 @@ const Empresa = () => {
           fontWeight="500"
           color="secondary.contrastText"
           textAlign="center"
-          fontSize="1.2rem"
+          sx={{
+            fontSize: { xs: "1rem", sm: "1.2rem" },
+          }}
           marginBottom="50px"
         >
           Nos especializamos en vidrios DVH (doble vidriado hermético), el cual
