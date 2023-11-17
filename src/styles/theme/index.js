@@ -7,6 +7,11 @@ const theme = createTheme({
         useFlexGap: true,
       },
     },
+    MuiAccordion: {
+      defaultProps: {
+        disableGutters: true,
+      },
+    },
   },
   // -----------------------------------------
   palette: {
