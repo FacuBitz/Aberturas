@@ -341,21 +341,23 @@ function NavBar(props) {
               <MenuIcon />
             </IconButton>
           </Box>
-          <Card
-            sx={{
-              backgroundColor: "transparent",
-              boxShadow: "none",
-              margin: "10px",
-              width: { md: "140px" },
-            }}
-          >
-            <CardMedia
-              component="img"
-              image={logo}
-              alt="logo empresa"
-              sx={{ maxWidth: { xs: "60px", md: "90px" } }}
-            />
-          </Card>
+          <Link to="/">
+            <Card
+              sx={{
+                backgroundColor: "transparent",
+                boxShadow: "none",
+                margin: "10px",
+                width: { md: "140px" },
+              }}
+            >
+              <CardMedia
+                component="img"
+                image={logo}
+                alt="logo empresa"
+                sx={{ maxWidth: { xs: "60px", md: "90px" } }}
+              />
+            </Card>
+          </Link>
           <List sx={{ display: { xs: "none", md: "flex" } }}>
             <ListItem>
               <Link to="/">
@@ -507,7 +509,7 @@ function NavBar(props) {
               }
               target="_blank"
             >
-              <IconButton color="secondary">
+              <IconButton color="secondary" aria-label="whatsapp">
                 <WhatsAppIcon />
               </IconButton>
             </Link>

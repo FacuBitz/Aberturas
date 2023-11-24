@@ -17,11 +17,9 @@ const ItemList = ({ products }) => {
           <Item
             key={product.id}
             id={product.id}
-            title={product.title}
-            img={product.img}
+            alt={product.alt}
             name={product.name}
-            category={product.category}
-            sub={product.subCategory}
+            img={product.img}
           />
         ))}
       </Stack>
