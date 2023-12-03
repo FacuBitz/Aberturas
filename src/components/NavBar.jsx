@@ -240,7 +240,7 @@ function NavBar(props) {
           sx={{ justifyContent: "center" }}
           onClick={handleDrawerToggle}
         >
-          <Link to="/">
+          <Link to="tel:+5491138158705">
             <Button color="secondary">Contacto</Button>
           </Link>
         </ListItem>
