@@ -24,6 +24,7 @@ import fabricacion from "../assets/img/fabricacion.jpg";
 import pagos from "../assets/img/medios-de-pago.jpg";
 import { Link } from "react-router-dom";
 import fondo from "../assets/img/fondo.jpg";
+import fondoMobile from "../assets/img/fondo-mobile.jpg";
 
 // Custom Box for brands display
 const Item = styled(Box)(({ theme }) => ({
@@ -66,16 +67,21 @@ export default function Home() {
       bgcolor="primary.dark"
       component="main"
     >
-      <img src={fondo} alt="imagen fabrica" className="img" />
+      <Box sx={{ display: { xs: "none", sm: "block" } }}>
+        <img src={fondo} alt="imagen fabrica" className="img" />
+      </Box>
+      <Box sx={{ display: { xs: "block", sm: "none" } }}>
+        <img src={fondoMobile} alt="imagen fabrica" className="img" />
+      </Box>
       <Stack component="section" alignItems="center" maxWidth="xl">
         <Typography
           fontFamily="Open Sans"
           sx={{
             fontSize: { xs: "1.2rem", sm: "1.5rem", md: "1.8rem", lg: "2rem" },
             paddingTop: { xs: "50px", md: "90px" },
+            marginBottom: { xs: "42px", md: "60px" },
           }}
           fontWeight="700"
-          marginBottom="60px"
           component="h1"
           color="secondary.light"
           align="center"
@@ -90,11 +96,11 @@ export default function Home() {
           margin="0"
           marginBottom="60px"
         >
-          <Brands xs={12} sm={4} md={2}>
+          <Brands xs={6} sm={4} md={2}>
             <Item>
               <Card
                 sx={{
-                  maxWidth: { xs: "75px", sm: "68px" },
+                  maxWidth: { xs: "72px", sm: "68px" },
                   backgroundColor: "transparent",
                   boxShadow: "none",
                 }}
@@ -103,7 +109,7 @@ export default function Home() {
               </Card>
             </Item>
           </Brands>
-          <Brands xs={12} sm={4} md={2}>
+          <Brands xs={6} sm={4} md={2}>
             <Item>
               <Card
                 sx={{
@@ -116,7 +122,7 @@ export default function Home() {
               </Card>
             </Item>
           </Brands>
-          <Brands xs={12} sm={4} md={2}>
+          <Brands xs={6} sm={4} md={2}>
             <Item>
               <Card
                 sx={{
@@ -129,7 +135,7 @@ export default function Home() {
               </Card>
             </Item>
           </Brands>
-          <Brands xs={12} sm={4} md={2}>
+          <Brands xs={6} sm={4} md={2}>
             <Item>
               <Card
                 sx={{
@@ -142,7 +148,7 @@ export default function Home() {
               </Card>
             </Item>
           </Brands>
-          <Brands xs={12} sm={4} md={2}>
+          <Brands xs={6} sm={4} md={2}>
             <Item>
               <Card
                 sx={{
@@ -155,11 +161,11 @@ export default function Home() {
               </Card>
             </Item>
           </Brands>
-          <Brands xs={12} sm={4} md={2}>
+          <Brands xs={6} sm={4} md={2}>
             <Item>
               <Card
                 sx={{
-                  maxWidth: { xs: "90px", sm: "78px" },
+                  maxWidth: { xs: "80px", sm: "78px" },
                   backgroundColor: "transparent",
                   boxShadow: "none",
                 }}
