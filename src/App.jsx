@@ -1,37 +1,47 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Empresa from "./components/Empresa";
+import Root from "./components/Root";
 import Home from "./components/Home";
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import ItemListContainer from "./components/ItemListContainer";
 import React from "react";
 import "./App.css";
-import { ThemeProvider } from "@mui/material";
-import theme from "./styles/theme";
 import CssBaseline from "@mui/material/CssBaseline";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    children: [
+      {
+        index: true,
+        element: <Home />,
+      },
+      {
+        path: "empresa",
+        element: <Empresa />,
+      },
+      {
+        path: "catalogue",
+        element: <ItemListContainer />,
+      },
+      {
+        path: "category/:category",
+        element: <ItemListContainer />,
+      },
+      {
+        path: "item/:id",
+        element: <ItemDetailContainer />,
+      },
+    ],
+  },
+]);
 
 const App = () => {
   return (
     <>
-      <BrowserRouter>
-        <CssBaseline />
-        <ThemeProvider theme={theme}>
-          <NavBar />
-          <Routes>
-            <Route exact path="/" element={<Home />} />
-            <Route exact path="/empresa" element={<Empresa />} />
-            <Route exact path="/catalogue" element={<ItemListContainer />} />
-            <Route
-              exact
-              path="/category/:category"
-              element={<ItemListContainer />}
-            />
-            <Route exact path="/item/:id" element={<ItemDetailContainer />} />
-          </Routes>
-          <Footer />
-        </ThemeProvider>
-      </BrowserRouter>
+      <CssBaseline />
+      <RouterProvider router={router} />
     </>
   );
 };
